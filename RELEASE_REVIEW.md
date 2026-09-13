@@ -1,8 +1,8 @@
 # Release Validation
 
-**Version:** 0.2.3
+**Version:** 0.2.4
 
-This release preserves the documentation-first Quantum Readiness framework and its public claim boundaries.
+This maintenance release preserves the documentation-first Quantum Readiness framework and its public claim boundaries while hardening clean-adopter validation.
 
 ## Repository validation
 
@@ -13,6 +13,7 @@ Release validation covers:
 - positive and mutation tests;
 - manifest and checksum verification;
 - deterministic source-package reproduction;
+- clean-tree validation with common local virtualenv/cache directories present;
 - hosted validation on supported environments.
 
 ## Preserved methodology
