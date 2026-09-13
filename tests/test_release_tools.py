@@ -148,6 +148,32 @@ class ReleaseToolTests(unittest.TestCase):
             )
             self.assertEqual(checked.returncode, 0, checked.stdout + checked.stderr)
 
+    def test_manifest_ignores_ephemeral_virtualenv_and_tool_caches(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            generator = self._manifest_fixture(root)
+            for rel in [
+                ".venv/lib/python/site-packages/local.py",
+                "venv/Lib/site-packages/local.py",
+                ".mypy_cache/state.json",
+                ".ruff_cache/state.json",
+            ]:
+                path = root / rel
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text("local\n", encoding="utf-8")
+            subprocess.run(
+                [sys.executable, str(generator)],
+                cwd=root,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            manifest = (root / "REPO_MANIFEST.json").read_text(encoding="utf-8")
+            self.assertNotIn(".venv", manifest)
+            self.assertNotIn("venv/", manifest)
+            self.assertNotIn(".mypy_cache", manifest)
+            self.assertNotIn(".ruff_cache", manifest)
+
     def test_manifest_drift_names_changed_path(self):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
