@@ -45,8 +45,8 @@
     },
     {
       "path": ".github/workflows/methodology-integrity.yml",
-      "bytes": 1768,
-      "sha256": "0120ed275189bb23a28c672007558bb7e2a0da33274945f21aef00980af12746"
+      "bytes": 2439,
+      "sha256": "98252f98d2fdece642bfd2f6670af4e8b5324e1ca8ff20b618dce30ada8a385f"
     },
     {
       "path": ".gitignore",
@@ -55,8 +55,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3942,
-      "sha256": "c58359e57197408d47f7a6bf7f063291f9a803d93d724c025d59531ff6f45973"
+      "bytes": 4515,
+      "sha256": "226c6ef74a3b7fd86384cb55693b1b1f153da014d7fd8cbaf257b9c0c1b3d237"
     },
     {
       "path": "CITATION.cff",
@@ -435,8 +435,8 @@
     },
     {
       "path": "tests/test_release_tools.py",
-      "bytes": 3413,
-      "sha256": "59e1605b57caa2861b91c8150861e95f4134ad034153fb56417df5d0dcb2254b"
+      "bytes": 6543,
+      "sha256": "72865442af54567a41cfcb2ae2adf6c75790bafd93e95a0be02469b0ce9c28a9"
     },
     {
       "path": "tests/test_validator_mutations.py",
@@ -460,8 +460,8 @@
     },
     {
       "path": "tools/generate_manifest.py",
-      "bytes": 2786,
-      "sha256": "e9a932c4a6502202670da2d11b40c47a0b93af5f6140dc79950bf8fbb2e4979a"
+      "bytes": 5741,
+      "sha256": "fd1a791e7f2dad71420004f4c13dad2105eb0be1c1b9631df9045e7ca2c1c8bf"
     },
     {
       "path": "tools/scan_public_boundary.py",
