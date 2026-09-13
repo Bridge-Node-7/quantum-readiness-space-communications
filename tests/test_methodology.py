@@ -63,8 +63,8 @@ class MethodologyIntegrityTests(unittest.TestCase):
     def test_release_metadata(self):
         metadata = json.loads(self.read("release/release-metadata.json"))
         self.assertEqual("quantum-readiness-space-communications", metadata["name"])
-        self.assertEqual("0.2.3", metadata["version"])
-        self.assertEqual("0.2.3", self.read("VERSION").strip())
+        self.assertEqual("0.2.4", metadata["version"])
+        self.assertEqual("0.2.4", self.read("VERSION").strip())
         self.assertEqual("Quantum Readiness Decision Pack", metadata["decision_pack_name"])
 
 if __name__ == "__main__":
