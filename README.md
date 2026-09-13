@@ -107,6 +107,8 @@ Use the [Role-Based Reading Paths](docs/role-based-reading-paths.md) for a short
 Git Bash or another Bash environment:
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 python -m pip install -r requirements-validation.txt
 bash scripts/validate.sh
 ```
@@ -114,9 +116,13 @@ bash scripts/validate.sh
 Windows PowerShell:
 
 ```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements-validation.txt
 powershell -ExecutionPolicy Bypass -File scripts/validate.ps1
 ```
+
+The repository validators intentionally ignore local virtualenv/cache directories such as `.venv` while continuing to validate governed source files.
 
 Hosted continuous integration also runs network-aware link checks. To enable those checks locally:
 
