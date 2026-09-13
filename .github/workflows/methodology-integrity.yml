@@ -35,15 +35,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p build/expected-integrity
+          expected_dir="${RUNNER_TEMP}/expected-integrity"
+          mkdir -p "$expected_dir"
           python tools/generate_manifest.py
-          cp REPO_MANIFEST.json SHA256SUMS build/expected-integrity/
+          cp REPO_MANIFEST.json SHA256SUMS "$expected_dir/"
           git checkout -- REPO_MANIFEST.json SHA256SUMS
       - name: Upload expected integrity evidence
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: expected-integrity
-          path: build/expected-integrity/
+          path: ${{ runner.temp }}/expected-integrity/
           if-no-files-found: error
           retention-days: 7
       - name: Validate source candidate
