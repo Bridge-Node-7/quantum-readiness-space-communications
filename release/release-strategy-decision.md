@@ -1,6 +1,6 @@
 # Release Strategy
 
-Quantum Readiness for Space Communications is maintained as a documentation-first public framework. The current public source line is **0.2.3**.
+Quantum Readiness for Space Communications is maintained as a documentation-first public framework. The current public source line is **0.2.4**.
 
 ## Historical transition
 
