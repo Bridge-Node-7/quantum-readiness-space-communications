@@ -11,12 +11,13 @@ TEXT_SUFFIXES = {
     ".go", ".rs", ".java", ".c", ".h", ".cpp", ".cs",
 }
 SPECIAL_TEXT_NAMES = {"LICENSE", ".gitignore", ".gitattributes", "VERSION"}
+LOCAL_DIRS = {".git", "__pycache__", ".venv", "venv", ".pytest_cache", ".mypy_cache", ".ruff_cache", "build", "dist"}
 
 
 def main() -> int:
     errors: list[str] = []
     for path in sorted(ROOT.rglob("*")):
-        if not path.is_file() or ".git" in path.parts or "__pycache__" in path.parts:
+        if not path.is_file() or any(part in LOCAL_DIRS for part in path.parts):
             continue
         if path.suffix.lower() not in TEXT_SUFFIXES and path.name not in SPECIAL_TEXT_NAMES:
             continue
