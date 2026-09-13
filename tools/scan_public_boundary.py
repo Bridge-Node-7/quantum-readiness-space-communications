@@ -14,11 +14,12 @@ PATTERNS = {
 }
 ALLOW = {"SECURITY.md"}
 SELF_SCAN_EXCLUSIONS = {"tools/scan_public_boundary.py", "tests/test_validator_mutations.py"}
+LOCAL_DIRS = {".git", "__pycache__", ".venv", "venv", ".pytest_cache", ".mypy_cache", ".ruff_cache", "build", "dist"}
 
 def main() -> int:
     findings = []
     for path in ROOT.rglob("*"):
-        if not path.is_file() or ".git" in path.parts or "__pycache__" in path.parts:
+        if not path.is_file() or any(part in LOCAL_DIRS for part in path.parts):
             continue
         rel = path.relative_to(ROOT).as_posix()
         if rel in {"SHA256SUMS", "REPO_MANIFEST.json"} or rel in SELF_SCAN_EXCLUSIONS:

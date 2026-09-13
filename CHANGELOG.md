@@ -1,11 +1,13 @@
 # Changelog
 
-## Unreleased
+## 0.2.4 - 2026-09-12
 
 - Exclude ephemeral test/tool caches from the controlled release manifest without weakening tracked source integrity.
 - Report exact added, removed, and changed paths when manifest or checksum drift is detected.
 - Add regression tests proving `.pytest_cache` does not create false drift while real controlled-file changes fail with actionable diagnostics.
 - Publish expected integrity evidence from pull-request CI so manifest updates remain reviewable and machine-generated.
+- Exclude common in-tree virtualenv and local tool-cache directories from controlled-source scans without weakening governed source checks.
+- Document an isolated virtualenv validation path for clean adopters.
 - Preserve the v0.2.3 methodology and assessment semantics without modification.
 
 ## 0.2.3 - 2026-08-07

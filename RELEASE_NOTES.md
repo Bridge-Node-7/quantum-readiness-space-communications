@@ -1,16 +1,16 @@
-# Quantum Readiness for Space Communications v0.2.3
+# Quantum Readiness for Space Communications v0.2.4
 
 ## Release summary
 
-Version 0.2.3 is a documentation-only maintenance update over v0.2.2.
+Version 0.2.4 is a validation-hygiene maintenance update over v0.2.3.
 
 It:
 
-- aligns security and contribution guidance with restricted public issue creation;
-- directs public-safe corrections to focused pull requests;
-- preserves GitHub Private Vulnerability Reporting for security matters;
-- reconciles current citation, review, notes, metadata, package, manifest, and checksum records; and
-- preserves the v0.2.2 assessment methodology without modification.
+- excludes common local virtualenv and tool-cache directories from controlled-source scans while preserving governed source coverage;
+- retains actionable added/removed/changed manifest diagnostics;
+- adds regression coverage proving local environments do not create false release-integrity drift while real source mutations still fail;
+- documents an isolated virtualenv validation path; and
+- preserves the v0.2.3 assessment methodology without modification.
 
 ## Methodology impact
 

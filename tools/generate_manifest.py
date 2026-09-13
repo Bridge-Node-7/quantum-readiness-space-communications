@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "REPO_MANIFEST.json"
 SUMS = ROOT / "SHA256SUMS"
 EXCLUDED = {"REPO_MANIFEST.json", "SHA256SUMS"}
-CACHE_DIRS = {".git", "__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache"}
+CACHE_DIRS = {".git", "__pycache__", ".venv", "venv", ".pytest_cache", ".mypy_cache", ".ruff_cache", "build", "dist"}
 
 
 def sha256(path: Path) -> str:

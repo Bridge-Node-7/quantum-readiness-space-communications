@@ -76,6 +76,9 @@ PROHIBITED_ASSURANCE = [
 ]
 SEMANTIC_SOURCE_EXCLUSIONS = {"tools/validate_repo.py", "tests/test_validator_mutations.py"}
 CODE_SUFFIXES = {".py", ".sh", ".ps1", ".js", ".ts", ".rb", ".go", ".rs", ".java", ".c", ".h", ".cpp", ".cs"}
+LOCAL_DIRS = {".git", "__pycache__", ".venv", "venv", ".pytest_cache", ".mypy_cache", ".ruff_cache", "build", "dist"}
+
+
 RUNTIME_DISPOSITION = re.compile(
     r"(?:print|console\.log|return|write-host|printf)\s*\(?\s*[\"']"
     r"(?:GO|HOLD|CONDITIONAL_GO|AUTOMATED_GO)\b",
@@ -125,15 +128,17 @@ def validate(root: Path) -> list[str]:
         if not (root / rel).is_file():
             errors.append(f"missing required file: {rel}")
 
-    if (root / "VERSION").read_text(encoding="utf-8").strip() != "0.2.3":
-        errors.append("VERSION must be 0.2.3")
+    if (root / "VERSION").read_text(encoding="utf-8").strip() != "0.2.4":
+        errors.append("VERSION must be 0.2.4")
 
     attributes = (root / ".gitattributes").read_text(encoding="utf-8")
     if "* text=auto eol=lf" not in attributes:
         errors.append(".gitattributes must enforce LF line endings for cross-platform hash stability")
 
-    files = [p for p in root.rglob("*") if p.is_file() and ".git" not in p.parts and "__pycache__" not in p.parts]
+    files = [p for p in root.rglob("*") if p.is_file() and not any(part in LOCAL_DIRS for part in p.parts)]
     for path in root.rglob("*"):
+        if any(part in LOCAL_DIRS for part in path.parts):
+            continue
         if path.is_dir() and path.name in FORBIDDEN_DIRS:
             errors.append(f"forbidden public software directory: {path.relative_to(root)}")
     for path in files:
@@ -389,7 +394,7 @@ def validate(root: Path) -> list[str]:
             errors.append(f"CITATION.cff required field missing: {field}")
 
     metadata = json.loads((root / "release/release-metadata.json").read_text(encoding="utf-8"))
-    for field, expected in [("name", SLUG), ("title", TITLE), ("version", "0.2.3"), ("decision_pack_name", DECISION_PACK)]:
+    for field, expected in [("name", SLUG), ("title", TITLE), ("version", "0.2.4"), ("decision_pack_name", DECISION_PACK)]:
         if metadata.get(field) != expected:
             errors.append(f"release metadata mismatch: {field}")
     release_date = metadata.get("release_date")
@@ -405,6 +410,8 @@ def validate(root: Path) -> list[str]:
     # Relative links and fragments.
     heading_cache: dict[Path, set[str]] = {}
     for path in root.rglob("*.md"):
+        if any(part in LOCAL_DIRS for part in path.parts):
+            continue
         rel = path.relative_to(root).as_posix()
         text = path.read_text(encoding="utf-8")
         for target in markdown_links(text):

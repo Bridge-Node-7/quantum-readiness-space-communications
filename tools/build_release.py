@@ -47,7 +47,7 @@ def build(output: Path, prefix: str) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", required=True, type=Path)
-    parser.add_argument("--prefix", default="quantum-readiness-space-communications-v0.2.3")
+    parser.add_argument("--prefix", default="quantum-readiness-space-communications-v0.2.4")
     args = parser.parse_args()
     build(args.output, args.prefix)
     print(args.output)
