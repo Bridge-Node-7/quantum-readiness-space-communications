@@ -224,4 +224,259 @@
       "sha256": "367cdcc86387b1fbb04dfc34e926a5eec2ce4d76bb69e29ec4e0fbf00da04409"
     },
     {
-      "path": "decisirâÌz{lÜäÌzwù~ä›ä ek(ß∂¨jv• »¨{Æõ
+      "path": "decision-pack/review-record-template.md",
+      "bytes": 402,
+      "sha256": "fd1a65875aaffa4d4818dd3ef3b8230f218804ed761a9b4c2699c42b51011614"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 2136,
+      "sha256": "59b575c966f0230e10f308c97e6ac4278df43c8681cf9ebfdf9b1e02ac7ef288"
+    },
+    {
+      "path": "docs/accessibility-and-mobile-use.md",
+      "bytes": 1021,
+      "sha256": "3c5008895286fcbfcdc65bc65eebfe4ad63093f41e4739032d870eced0d573b5"
+    },
+    {
+      "path": "docs/applicability-matrix.md",
+      "bytes": 1015,
+      "sha256": "2cd273626bdfd83d9da939dd5eb4d86b8f2d48cb8dad107ec2bdacf14bbd29b2"
+    },
+    {
+      "path": "docs/assessor-guide.md",
+      "bytes": 911,
+      "sha256": "1618fd8b9fc8398ffeb3c6a11199565783b0e6fa883a3860cbdf8595dfe509be"
+    },
+    {
+      "path": "docs/change-control.md",
+      "bytes": 599,
+      "sha256": "0bc0d992e8f8801437ddda79bd56c5e21f656d3f7e222b027cdeabc26cb0ca1c"
+    },
+    {
+      "path": "docs/compatibility-and-supersession.md",
+      "bytes": 1121,
+      "sha256": "b61257f6f4465a539837f06a6f0d9dff72d901df8cccd1b2fce6b6ce91f8a32f"
+    },
+    {
+      "path": "docs/evidence-model.md",
+      "bytes": 613,
+      "sha256": "38e29ebd1d0db635f5e98398f03109fa995594f89c61c26c23a663581a764508"
+    },
+    {
+      "path": "docs/glossary.md",
+      "bytes": 1857,
+      "sha256": "2182bed1ab73eecd41ae3e4c8868c1be705a22323fe217e858c75d19075a7379"
+    },
+    {
+      "path": "docs/methodology-integrity.md",
+      "bytes": 911,
+      "sha256": "768f13a272d212a402556d2617c3ba98775c12d60a3a760c760bc6397f819532"
+    },
+    {
+      "path": "docs/methodology.md",
+      "bytes": 1765,
+      "sha256": "7b24ac29cff7c43533dc3329dfd3a7741f5de29cde1cf3ebf64fac924c11982d"
+    },
+    {
+      "path": "docs/public-claim-boundaries.md",
+      "bytes": 1122,
+      "sha256": "380c1093228daeeaaa3a39bca7bf917d8c7086b71fe54aec2f6d5eaa9ec1d805"
+    },
+    {
+      "path": "docs/quantum-cryptography-foundations.md",
+      "bytes": 1157,
+      "sha256": "470a380298dc3782190d9f15c7378328d30c50447e63f52f49ce9d5fd71bb504"
+    },
+    {
+      "path": "docs/references.md",
+      "bytes": 316,
+      "sha256": "09d7cec8f4f388ba0bded1a73eba0530b69e6e22477056666d3cbf69ed86d844"
+    },
+    {
+      "path": "docs/role-based-reading-paths.md",
+      "bytes": 1886,
+      "sha256": "ae0e8e826aaec28982b96b132ad2180d1f96adfee968f9ecd1033ce233658507"
+    },
+    {
+      "path": "docs/space-link-constraints.md",
+      "bytes": 926,
+      "sha256": "8816b99be2ed7281ef01098edebc880a7c8935e9a293d1292e3db8eef2eedf75"
+    },
+    {
+      "path": "docs/standards-register.md",
+      "bytes": 3879,
+      "sha256": "ed0933e8b4025a88b6e744ea1b9347ce263e095d0f60b87cd204108ff29f6cb7"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/01-scope-and-link-map.md",
+      "bytes": 823,
+      "sha256": "bfd509d3cfef6ca9e83deaf4a055cdc13e7f3cea5267dbc803a1cf09ee7fdd40"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/02-cryptographic-inventory.md",
+      "bytes": 663,
+      "sha256": "cd501aeb636bd288635779523be8d1c578315bae35d7a374d5ed30a8e8f1de4d"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/03-quantum-exposure-severity.md",
+      "bytes": 779,
+      "sha256": "97d1a1aae607654fcd6b21ad937a45c08318c80d7e722b20afed53f40f778898"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/04-migration-readiness-profile.md",
+      "bytes": 954,
+      "sha256": "d8efd81e7cd7c0de69d8ae682345a7329fbf6354ec8213e4baa48ff11b8bcaf0"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/05-evidence-confidence-and-coverage.md",
+      "bytes": 1227,
+      "sha256": "77c5bee8cdb8a0328d08546cb97d387f977b2d264b8945bdb6879b2ba43b0685"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/06-critical-risk-overrides.md",
+      "bytes": 1166,
+      "sha256": "226af3e4bfef23ed34f57c791db51a9a45ce1ba37e4d2d623b2a0593db52db66"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/07-ownership-and-actions.md",
+      "bytes": 627,
+      "sha256": "57094c5d3f5b1209c0225348f528a480e395014361cc4da13abcd7cb3918e7ac"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/08-vendor-and-standards.md",
+      "bytes": 609,
+      "sha256": "0d629948d29da5de35ca8e1abb9c377497d5b50fdfc912bed8ef4b89b4cc8ce0"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/09-migration-and-recovery-roadmap.md",
+      "bytes": 584,
+      "sha256": "b00c0123ac3731a7ab6771f1d6dc860ba7d674230e8df734f586c116a6dffeaf"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/10-decision-record-and-review.md",
+      "bytes": 898,
+      "sha256": "6bd47495555d246a818735b1628668a7593435275427df2443671cbf9a9fd651"
+    },
+    {
+      "path": "examples/sample-small-satellite-decision-pack/README.md",
+      "bytes": 1270,
+      "sha256": "1a49342ce1946e8f5c44d2c2c299a475163e5f720384c72e546a218f41e5dd22"
+    },
+    {
+      "path": "examples/sample-smallsat-operator-assessment.md",
+      "bytes": 440,
+      "sha256": "220d3acee150424ef0e533c52ccfdde9e1ffa4fbc14f1a2f9e6b76e76a4af4e7"
+    },
+    {
+      "path": "frameworks/pqc-migration-roadmap.md",
+      "bytes": 1724,
+      "sha256": "76aba87e56095966a930a07f50e014be78dfdb7c5a1e0ccccea2ef8c6066573a"
+    },
+    {
+      "path": "release/changed-files-allowlist.txt",
+      "bytes": 3251,
+      "sha256": "1f014477a097389eb4f179360a81a4be6912de7a8363fbe858b5505b07f499a5"
+    },
+    {
+      "path": "release/external-link-exceptions.json",
+      "bytes": 460,
+      "sha256": "48e93aada49c5f21e5c6bfb7f1daf222837c1e8f649e8295e077717cd90035a5"
+    },
+    {
+      "path": "release/release-checklist.md",
+      "bytes": 913,
+      "sha256": "514af384777dc2c698a23696aa49d2e1cfaea3c9a87cc578f5d9896d646760b7"
+    },
+    {
+      "path": "release/release-metadata.json",
+      "bytes": 492,
+      "sha256": "6b57f190fafcbed129099b24ac97fddabb8e8540ad337ab6b1a3f4399395f1f6"
+    },
+    {
+      "path": "release/release-strategy-decision.md",
+      "bytes": 667,
+      "sha256": "22ce6299778f3ff14210e09b3b4b1d96ce8f622bf3ec5af1f5eb32553d2af676"
+    },
+    {
+      "path": "release/repository-metadata.json",
+      "bytes": 630,
+      "sha256": "5b6183e95f693f3330737c9f692c4c5282b3406445794ed5aa2c419ea3f60457"
+    },
+    {
+      "path": "requirements-validation.txt",
+      "bytes": 14,
+      "sha256": "0969da99a0bc2a1b71ed50584560f4588a37567ac63af3ddbaf3c4617ca5621a"
+    },
+    {
+      "path": "scripts/validate.ps1",
+      "bytes": 1867,
+      "sha256": "3c5fd3464c637bcb8cfedbee453bc6b5e75473fddb751203989341d593b62cda"
+    },
+    {
+      "path": "scripts/validate.sh",
+      "bytes": 1454,
+      "sha256": "e1f912e10857c68d046b8d8ee27287b371bb93abb58ba74bc3e6be37c759c034"
+    },
+    {
+      "path": "tests/test_external_links.py",
+      "bytes": 1916,
+      "sha256": "02197dd1c3803d9192a763311acaacace18d5451939bb954cb3d0c8b869b6865"
+    },
+    {
+      "path": "tests/test_methodology.py",
+      "bytes": 3378,
+      "sha256": "d1471cfa5be1df6edce19f2e5f3c8d03cccdddc87541e14c07f16fb0c5ef1ebc"
+    },
+    {
+      "path": "tests/test_public_boundary.py",
+      "bytes": 974,
+      "sha256": "70236e141f413d626474837b3a79570d1914e85e37d2db750e52b14abde26f1e"
+    },
+    {
+      "path": "tests/test_release_tools.py",
+      "bytes": 6543,
+      "sha256": "72865442af54567a41cfcb2ae2adf6c75790bafd93e95a0be02469b0ce9c28a9"
+    },
+    {
+      "path": "tests/test_validator_mutations.py",
+      "bytes": 12068,
+      "sha256": "75d07a977be182bcb8fdee6e0d0a1685dc494264584603e822272b8e8541e3da"
+    },
+    {
+      "path": "tools/build_release.py",
+      "bytes": 1797,
+      "sha256": "07d582ecf3bd6ce79e36b8d4a4dfd867ead823fc47d91981bd33447ef8211cc7"
+    },
+    {
+      "path": "tools/check_external_links.py",
+      "bytes": 4408,
+      "sha256": "30a228ce8092c341c2277ec89eddf2daf18d1e473e75762fb467a00f59dc65bd"
+    },
+    {
+      "path": "tools/check_staged_whitespace.py",
+      "bytes": 1468,
+      "sha256": "39b705952de0ea58e2678502c58b12607f4522128b9e67fd04d15994ec7b5b22"
+    },
+    {
+      "path": "tools/generate_manifest.py",
+      "bytes": 5741,
+      "sha256": "fd1a791e7f2dad71420004f4c13dad2105eb0be1c1b9631df9045e7ca2c1c8bf"
+    },
+    {
+      "path": "tools/scan_public_boundary.py",
+      "bytes": 1829,
+      "sha256": "153abeb4d42f949ea9c5e09d2831166b744fc88106875057d568b8a59610e7a1"
+    },
+    {
+      "path": "tools/stamp_release.py",
+      "bytes": 1357,
+      "sha256": "44ea875f676e29baba1637bd4a24be7de505ec78b89128af15c0e709675dd9b3"
+    },
+    {
+      "path": "tools/validate_repo.py",
+      "bytes": 26230,
+      "sha256": "16d2f58ded1cfa5ef54caad948f9a09f83c929aac8e20f340abdf96b8d3f0690"
+    }
+  ]
+}
