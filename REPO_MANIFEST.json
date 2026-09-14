@@ -5,7 +5,7 @@
   "version": "0.2.4",
   "release_date": "2026-09-12",
   "methodology_scope": "documentation-first; no automated assessment engine or workbook decision calculator",
-  "controlled_file_count": 94,
+  "controlled_file_count": 95,
   "integrity_note": "REPO_MANIFEST.json and SHA256SUMS are excluded from controlled files. SHA256SUMS includes REPO_MANIFEST.json but excludes itself.",
   "files": [
     {
@@ -42,6 +42,11 @@
       "path": ".github/pull_request_template.md",
       "bytes": 769,
       "sha256": "1a796375b73f03727b3b8dd5ac3bc9de602193905430f1749b597c3a01ec339d"
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "bytes": 693,
+      "sha256": "63a13f560530d4d0a5bccceeeddc80875fff483f9e157a8067da0dbecb802382"
     },
     {
       "path": ".github/workflows/methodology-integrity.yml",
