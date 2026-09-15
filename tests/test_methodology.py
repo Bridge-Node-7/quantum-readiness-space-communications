@@ -64,8 +64,15 @@ class MethodologyIntegrityTests(unittest.TestCase):
         metadata = json.loads(self.read("release/release-metadata.json"))
         self.assertEqual("quantum-readiness-space-communications", metadata["name"])
         self.assertEqual("0.2.4", metadata["version"])
+        self.assertEqual("{{RELEASE_DATE}}", metadata["release_date"])
         self.assertEqual("0.2.4", self.read("VERSION").strip())
         self.assertEqual("Quantum Readiness Decision Pack", metadata["decision_pack_name"])
+
+    def test_current_source_is_not_presented_as_formally_released(self):
+        strategy = self.read("release/release-strategy-decision.md")
+        self.assertIn("latest formal GitHub release is **v0.2.3**", strategy)
+        self.assertIn("Source version 0.2.4 remains unreleased", strategy)
+        self.assertIn("0.2.4 - Unreleased source", self.read("CHANGELOG.md"))
 
 if __name__ == "__main__":
     unittest.main()

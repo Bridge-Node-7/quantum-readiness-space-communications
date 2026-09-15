@@ -1,8 +1,8 @@
 # Quantum Readiness for Space Communications v0.2.4
 
-## Release summary
+## Source summary
 
-Version 0.2.4 is a validation-hygiene maintenance update over v0.2.3.
+Version 0.2.4 is an unreleased validation-hygiene source update over formal release v0.2.3.
 
 It:
 
@@ -18,8 +18,8 @@ There is no methodology change. Quantum Exposure Severity, Migration Readiness P
 
 ## Public scope
 
-This release does not contain an assessment engine, automated disposition, cryptographic implementation, public JSON decision schema, or workbook decision calculator.
+This source version does not contain an assessment engine, automated disposition, cryptographic implementation, public JSON decision schema, or workbook decision calculator.
 
 ## Claim boundary
 
-This release is not certification, compliance determination, operational authorization, flight qualification, product validation, or proof that a system is quantum-safe.
+This source version is not certification, compliance determination, operational authorization, flight qualification, product validation, or proof that a system is quantum-safe.
