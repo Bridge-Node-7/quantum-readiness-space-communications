@@ -1,8 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this framework, cite the exact tagged release."
+message: "For formal releases, cite the exact tagged release; for unreleased source, cite the exact commit."
 title: "Quantum Readiness for Space Communications"
 version: "0.2.4"
-date-released: "2026-09-12"
 type: software
 abstract: >-
   Documentation-first, publicly distributable assessment and migration-planning framework

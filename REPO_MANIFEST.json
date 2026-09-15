@@ -3,7 +3,7 @@
   "repository": "Bridge-Node-7/quantum-readiness-space-communications",
   "title": "Quantum Readiness for Space Communications",
   "version": "0.2.4",
-  "release_date": "2026-09-12",
+  "release_date": "{{RELEASE_DATE}}",
   "methodology_scope": "documentation-first; no automated assessment engine or workbook decision calculator",
   "controlled_file_count": 95,
   "integrity_note": "REPO_MANIFEST.json and SHA256SUMS are excluded from controlled files. SHA256SUMS includes REPO_MANIFEST.json but excludes itself.",
@@ -60,13 +60,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4733,
-      "sha256": "086378d88fd62677a0268174f6b85f02b16ed2cffe590d7787fd2e0862fea47e"
+      "bytes": 4740,
+      "sha256": "1d783826dd10a798fbb4504240c568f51c2f03e2b252aeb49960f1c1ff201b29"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 781,
-      "sha256": "e46441ff3ff7b2e6c7b3e0810c1abbf82284184887b35484ac8a2c01c2d24edc"
+      "bytes": 793,
+      "sha256": "aa2beb4a05fdb0e39111796ea800219ee516cfe3e16a2a7d56ef46b691460515"
     },
     {
       "path": "CODE_OF_CONDUCT.md",
@@ -120,13 +120,13 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1214,
-      "sha256": "deccbb4ff2293ebfca5d7b485c7252384cc9e283655dd315f1962f27c4738313"
+      "bytes": 1249,
+      "sha256": "4d0bea53d3947636561c01030649606ee82df58fe9e493d7c1ba21185fbc5e3d"
     },
     {
       "path": "RELEASE_REVIEW.md",
-      "bytes": 1059,
-      "sha256": "3c31b8a82d8dd9389adca2c13c00ebef91517185b140d9187dbc4a95ed68fd27"
+      "bytes": 1066,
+      "sha256": "255766feb6301bc32b0126a67d95890212c9a8002eb4ad90104f01fa67ea1de1"
     },
     {
       "path": "SECURITY.md",
@@ -395,13 +395,13 @@
     },
     {
       "path": "release/release-metadata.json",
-      "bytes": 492,
-      "sha256": "df373c91910c20e049df072769fae6b92284f978f8cd776448ed369f34b414d8"
+      "bytes": 498,
+      "sha256": "958408452f0dbae4eee405aa89cdfa83abd23a623c22d15bfd1e8d10752013d0"
     },
     {
       "path": "release/release-strategy-decision.md",
-      "bytes": 667,
-      "sha256": "dfc699cf775a0e8d502737784f22fb2b1f043c4d92bc6aab0707bfceccbd008f"
+      "bytes": 870,
+      "sha256": "c6e2fa4898d8a690d23a182e9f7191d895909f2a9768b4520c34356506f201e2"
     },
     {
       "path": "release/repository-metadata.json",
@@ -430,8 +430,8 @@
     },
     {
       "path": "tests/test_methodology.py",
-      "bytes": 3378,
-      "sha256": "9ce8d527c2063d41041811d17b331eb90b58769fa6b44fd321ba80617bd5a6f3"
+      "bytes": 3823,
+      "sha256": "db34e3c21919c1d740e1f2a879afed1624af738ea8a0f071c7535d18cdba00fb"
     },
     {
       "path": "tests/test_public_boundary.py",

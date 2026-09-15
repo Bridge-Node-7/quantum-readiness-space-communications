@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.2.4 - 2026-09-12
+## 0.2.4 - Unreleased source
 
 - Exclude ephemeral test/tool caches from the controlled release manifest without weakening tracked source integrity.
 - Report exact added, removed, and changed paths when manifest or checksum drift is detected.

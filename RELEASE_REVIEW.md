@@ -1,12 +1,12 @@
-# Release Validation
+# Source Validation
 
 **Version:** 0.2.4
 
-This maintenance release preserves the documentation-first Quantum Readiness framework and its public claim boundaries while hardening clean-adopter validation.
+This unreleased source version preserves the documentation-first Quantum Readiness framework and its public claim boundaries while hardening clean-adopter validation.
 
-## Repository validation
+## Source validation
 
-Release validation covers:
+Source validation covers:
 
 - semantic repository checks;
 - public-boundary scanning;
@@ -18,7 +18,7 @@ Release validation covers:
 
 ## Preserved methodology
 
-The release preserves the assessment workflow, Quantum Exposure Severity, Migration Readiness Profile, Evidence Confidence and Coverage, Critical Risk Overrides, and human-reviewed Quantum Readiness Decision Pack.
+The source version preserves the assessment workflow, Quantum Exposure Severity, Migration Readiness Profile, Evidence Confidence and Coverage, Critical Risk Overrides, and human-reviewed Quantum Readiness Decision Pack.
 
 ## Limitations
 
