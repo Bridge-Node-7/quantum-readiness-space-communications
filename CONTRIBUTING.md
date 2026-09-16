@@ -18,7 +18,7 @@ bash scripts/validate.sh
 
 A methodology change must state:
 
-- the problem being corrected;
+- the objective or condition being advanced;
 - the affected files and outputs;
 - whether the change is breaking;
 - how non-compensation, evidence separation, and critical overrides remain intact;
