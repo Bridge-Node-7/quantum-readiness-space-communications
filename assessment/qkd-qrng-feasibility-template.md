@@ -6,7 +6,7 @@ QKD and QRNG are context-dependent architectural options. They are not universal
 |---|---|
 | What mission use case is being considered? |  |
 | What threat model requires consideration? |  |
-| What problem is not already addressed by standardized PQC and sound key management? |  |
+| What mission need remains after standardized PQC and sound key management are applied? |  |
 | What link, range, pointing, availability, latency, SWaP, and operational constraints apply? |  |
 | What trusted hardware, entropy, key management, and recovery dependencies apply? |  |
 | What interoperability and lifecycle evidence exists? |  |

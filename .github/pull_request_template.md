@@ -1,6 +1,6 @@
 ## Purpose
 
-Describe the problem and the exact files changed.
+Describe the objective and the exact files changed.
 
 ## Methodology impact
 

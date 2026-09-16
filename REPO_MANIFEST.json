@@ -20,8 +20,8 @@
     },
     {
       "path": ".github/ISSUE_TEMPLATE/documentation.yml",
-      "bytes": 420,
-      "sha256": "5f1a921eed89796488180807bac7d173c7efbd1582d35e584fc6b397439cc031"
+      "bytes": 426,
+      "sha256": "bf98b9441a29f30c03a2a5beb0644806e22f7c4877fd34ce190422bd7ca82632"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/methodology-defect.yml",
@@ -40,8 +40,8 @@
     },
     {
       "path": ".github/pull_request_template.md",
-      "bytes": 769,
-      "sha256": "1a796375b73f03727b3b8dd5ac3bc9de602193905430f1749b597c3a01ec339d"
+      "bytes": 771,
+      "sha256": "4bed28f716a9c2c2a9817fce7d716618f46e96fa8bbac865495d7bdf0715bbc2"
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -75,8 +75,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 1221,
-      "sha256": "9893357b0e9c4512ad0db46b6302a85e52f4e944edfd4169491e2c5cb253d1aa"
+      "bytes": 1235,
+      "sha256": "5deab5937003c6de48dc34987780b50996dfef49e13aacaef04fc28baa104b52"
     },
     {
       "path": "DISCLAIMER.md",
@@ -180,8 +180,8 @@
     },
     {
       "path": "assessment/qkd-qrng-feasibility-template.md",
-      "bytes": 996,
-      "sha256": "4954acc468394ae9b2fe0e08b7fcd72f2bf2d131dde4af5ba15afb06935a56b7"
+      "bytes": 999,
+      "sha256": "93b640c6bfc4f2fd8489714477f866007b76893c3ea9d89da16d5cc5e1219cef"
     },
     {
       "path": "assessment/quantum-exposure-severity.md",
@@ -255,8 +255,8 @@
     },
     {
       "path": "docs/change-control.md",
-      "bytes": 599,
-      "sha256": "0bc0d992e8f8801437ddda79bd56c5e21f656d3f7e222b027cdeabc26cb0ca1c"
+      "bytes": 622,
+      "sha256": "35b26f41f1ce45a7f8374d756f898ffd3a8c41e55152b3380f73df9a5fb33ae2"
     },
     {
       "path": "docs/compatibility-and-supersession.md",

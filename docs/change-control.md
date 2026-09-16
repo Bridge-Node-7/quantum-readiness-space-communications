@@ -1,6 +1,6 @@
 # Change Control
 
-A methodology change must record the problem, files and outputs affected, compatibility impact, evidence, tests, standards impact, reviewer, and approval.
+A methodology change must record the objective or current condition, files and outputs affected, compatibility impact, evidence, tests, standards impact, reviewer, and approval.
 
 Breaking changes require:
 
