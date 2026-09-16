@@ -12,6 +12,6 @@ body:
   - type: textarea
     id: issue
     attributes:
-      label: Problem and proposed improvement
+      label: Current state and proposed improvement
     validations:
       required: true
