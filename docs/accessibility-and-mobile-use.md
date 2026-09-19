@@ -21,6 +21,8 @@ Some registers contain several fields. On narrow screens:
 - Announce table purpose before reading cell values.
 - Record any accessibility limitation in the review record.
 
-## Publication boundary
+## Using the templates
 
-The public repository contains blank templates and fictional examples only. Real assessments should be stored in an approved controlled environment and reviewed for accessibility within that environment.
+The published examples are fictional. For real work, use an environment
+appropriate to the information being reviewed and apply the same accessibility
+guidance there.
