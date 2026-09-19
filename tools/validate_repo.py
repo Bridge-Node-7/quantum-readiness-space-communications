@@ -21,7 +21,7 @@ OLD_ALLOWED = {
     "CHANGELOG.md", "METHODOLOGY_CHANGELOG.md", "ERRATA_v0.1.5.md",
     "docs/compatibility-and-supersession.md", "assessment/readiness-index.md",
     "assessment/space-link-risk-matrix.md", "assessment/quantum-safe-space-communications-assessment.md",
-    "release/release-strategy-decision.md",
+    "release/release-status.md",
     "release/changed-files-allowlist.txt", "tools/validate_repo.py", "tests/test_validator_mutations.py",
     "REPO_MANIFEST.json",
 }
@@ -34,7 +34,7 @@ REQUIRED = {
     "assessment/evidence-confidence-ledger.md", "assessment/critical-risk-overrides.md",
     "decision-pack/README.md", "docs/README.md", "docs/assessor-guide.md", "docs/evidence-model.md",
     "docs/change-control.md", "docs/quantum-cryptography-foundations.md", "docs/standards-register.md",
-    "examples/sample-small-satellite-decision-pack/README.md", "release/release-strategy-decision.md",
+    "examples/sample-small-satellite-decision-pack/README.md", "release/release-status.md",
     "release/release-metadata.json", "release/external-link-exceptions.json", ".gitattributes", "docs/accessibility-and-mobile-use.md",
     "tools/build_release.py", "tools/check_external_links.py", "tools/check_staged_whitespace.py",
     "tools/scan_public_boundary.py", "tests/test_methodology.py", "tests/test_validator_mutations.py", "tests/test_external_links.py",
