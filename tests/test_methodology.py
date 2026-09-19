@@ -54,11 +54,11 @@ class MethodologyIntegrityTests(unittest.TestCase):
         self.assertEqual(11, len(list(directory.glob("*.md"))))
         self.assertIn("Critical Action Required", self.read("examples/sample-small-satellite-decision-pack/10-decision-record-and-review.md"))
 
-    def test_release_strategy_is_explicit(self):
-        text = self.read("release/release-strategy-decision.md")
-        self.assertIn("v0.1.6", text)
-        self.assertIn("superseded", text.lower())
-        self.assertIn("v0.1.5", text)
+    def test_release_status_is_explicit(self):
+        text = self.read("release/release-status.md")
+        self.assertIn("Current source version: **0.2.4**", text)
+        self.assertIn("Latest published GitHub Release: **v0.2.3**", text)
+        self.assertIn("not represented as a published release", text)
 
     def test_release_metadata(self):
         metadata = json.loads(self.read("release/release-metadata.json"))
@@ -69,9 +69,9 @@ class MethodologyIntegrityTests(unittest.TestCase):
         self.assertEqual("Quantum Readiness Decision Pack", metadata["decision_pack_name"])
 
     def test_current_source_is_not_presented_as_formally_released(self):
-        strategy = self.read("release/release-strategy-decision.md")
-        self.assertIn("latest formal GitHub release is **v0.2.3**", strategy)
-        self.assertIn("Source version 0.2.4 remains unreleased", strategy)
+        status = self.read("release/release-status.md")
+        self.assertIn("Latest published GitHub Release: **v0.2.3**", status)
+        self.assertIn("Source version 0.2.4 is not represented as a published release", status)
         self.assertIn("0.2.4 - Unreleased source", self.read("CHANGELOG.md"))
 
 if __name__ == "__main__":
