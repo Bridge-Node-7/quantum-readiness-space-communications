@@ -5,7 +5,7 @@
   "version": "0.2.4",
   "release_date": "{{RELEASE_DATE}}",
   "methodology_scope": "documentation-first; no automated assessment engine or workbook decision calculator",
-  "controlled_file_count": 95,
+  "controlled_file_count": 93,
   "integrity_note": "REPO_MANIFEST.json and SHA256SUMS are excluded from controlled files. SHA256SUMS includes REPO_MANIFEST.json but excludes itself.",
   "files": [
     {
@@ -79,11 +79,6 @@
       "sha256": "5deab5937003c6de48dc34987780b50996dfef49e13aacaef04fc28baa104b52"
     },
     {
-      "path": "DISCLAIMER.md",
-      "bytes": 902,
-      "sha256": "8bdc4336ba72f56c779c64ab402fb62b587182856f3d021ef516d782f1d595d3"
-    },
-    {
       "path": "ERRATA_v0.1.5.md",
       "bytes": 765,
       "sha256": "b85e0747e0d06698b0c01bd9acca53e7c25ab7d1131a722c1393a744d1447711"
@@ -115,8 +110,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8605,
-      "sha256": "6b0f43a2aa952b7241c65cb6add12f9d88e53c913d6e43c8598303a635aabbd6"
+      "bytes": 8573,
+      "sha256": "262a933962b4516c1d7b6bf14c1ee3da1c8dc21b0d01be3e705383dcc4abb470"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -132,11 +127,6 @@
       "path": "SECURITY.md",
       "bytes": 570,
       "sha256": "1557789c24065c5129fa7b3f6b27f3b0b2ce500b520f52edf015a2cf5677d5af"
-    },
-    {
-      "path": "STATUS.md",
-      "bytes": 1019,
-      "sha256": "60500ff34da6a6ea9d80b67cbd3c6383042905fd71ac7889a007eccd5089966a"
     },
     {
       "path": "VERSION",
@@ -380,8 +370,8 @@
     },
     {
       "path": "release/changed-files-allowlist.txt",
-      "bytes": 3240,
-      "sha256": "4b61894105e6c17ee9a00043a17ca0c8b0816e574e28d5f2c64125d8ba454ef5"
+      "bytes": 3216,
+      "sha256": "0cc661acfd29da92f9221ae8792ea858c4aeef451e2231dd8e18049e96993c53"
     },
     {
       "path": "release/external-link-exceptions.json",
@@ -480,8 +470,8 @@
     },
     {
       "path": "tools/validate_repo.py",
-      "bytes": 26483,
-      "sha256": "ad1f06a968cf99cc33b3997ff85baedcf2eb96960937f35107cd1bbfc314c513"
+      "bytes": 26470,
+      "sha256": "eeadde598d6176d574640fe10332487219825f962823636ad493d8bebecc9004"
     }
   ]
 }

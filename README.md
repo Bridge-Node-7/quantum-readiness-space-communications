@@ -144,7 +144,7 @@ Before publishing a completed artifact, apply the review and authorization requi
 
 ## Limits and Responsible Use
 
-Read [Known Limitations](KNOWN_LIMITATIONS.md), [Public Claim Boundaries](docs/public-claim-boundaries.md), [DISCLAIMER.md](DISCLAIMER.md), and [SECURITY.md](SECURITY.md).
+Read [Known Limitations](KNOWN_LIMITATIONS.md), [Public Claim Boundaries](docs/public-claim-boundaries.md), and [SECURITY.md](SECURITY.md).
 
 This framework supports evidence-based planning. It does not replace cryptographic engineering, mission engineering, safety review, legal analysis, contracting decisions, standards applicability determinations, or formal authorization processes.
 
