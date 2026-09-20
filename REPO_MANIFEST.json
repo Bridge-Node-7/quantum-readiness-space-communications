@@ -35,8 +35,8 @@
     },
     {
       "path": ".github/dependabot.yml",
-      "bytes": 466,
-      "sha256": "3bc6ba7f80704857944bddb70dee47f536f49e3e46dded659743d70ead429a18"
+      "bytes": 539,
+      "sha256": "4cef4a4a3e90532f4e8b921436365718d325f6c6eaa4c5424857020672086596"
     },
     {
       "path": ".github/pull_request_template.md",
@@ -115,8 +115,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8341,
-      "sha256": "6f6ae9abbae68a32c2e5952b3e1b2f6215c56f02c1b3753d1127e895d33d1c90"
+      "bytes": 8605,
+      "sha256": "6b0f43a2aa952b7241c65cb6add12f9d88e53c913d6e43c8598303a635aabbd6"
     },
     {
       "path": "RELEASE_NOTES.md",

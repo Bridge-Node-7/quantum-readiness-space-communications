@@ -132,6 +132,10 @@ VALIDATE_NETWORK=1 bash scripts/validate.sh
 
 The validators check repository integrity and methodology boundaries. They do not calculate an assessment result.
 
+## Release status
+
+`main` is the current reviewed source. GitHub Releases are stable distribution milestones and may intentionally lag reviewed maintenance on `main`. A source version ahead of the latest GitHub Release is unreleased until a release is published.
+
 ## Publicly Distributable Use
 
 Use only information approved for unrestricted publication. Keep scope, evidence, limitations, and decision authority explicit.
