@@ -43,9 +43,3 @@
 3. [90-day action plan](../briefings/90-day-action-plan-template.md)
 4. [Standards register](standards-register.md)
 
-## Repository Maintainer
-
-1. [Governance](../GOVERNANCE.md)
-2. [Methodology integrity](methodology-integrity.md)
-3. [Contributing](../CONTRIBUTING.md)
-4. [Release checklist](../release/release-checklist.md)
