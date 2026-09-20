@@ -250,8 +250,8 @@
     },
     {
       "path": "docs/compatibility-and-supersession.md",
-      "bytes": 1121,
-      "sha256": "b61257f6f4465a539837f06a6f0d9dff72d901df8cccd1b2fce6b6ce91f8a32f"
+      "bytes": 1073,
+      "sha256": "525454410c1ec1be663304e9fe799f8c7c6715dc4144c68b806a891ad398234d"
     },
     {
       "path": "docs/evidence-model.md",
