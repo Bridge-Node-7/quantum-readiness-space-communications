@@ -60,8 +60,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4740,
-      "sha256": "1d783826dd10a798fbb4504240c568f51c2f03e2b252aeb49960f1c1ff201b29"
+      "bytes": 4739,
+      "sha256": "891fce363d17542638775798a4c234546d188801c374a71df7305ba8437ab732"
     },
     {
       "path": "CITATION.cff",
@@ -105,8 +105,8 @@
     },
     {
       "path": "METHODOLOGY_CHANGELOG.md",
-      "bytes": 1062,
-      "sha256": "edca693620c4ba8fbbf7f849fad522483a6524d3a4d3419e94ddea636507889d"
+      "bytes": 973,
+      "sha256": "50078ab6879738741e96437c6535ed2dfb33e674b2b96d1932ef61a02053bd36"
     },
     {
       "path": "README.md",

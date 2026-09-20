@@ -22,4 +22,4 @@ This is a breaking documentation-first methodology revision.
 - Machine-checked orientation and minimum meanings for readiness Stages 0–5
 - Machine-checked positive semantics for CR-01 through CR-12
 
-An engine-bearing candidate was evaluated and withdrawn before publication because adversarial testing identified false-favorable paths. The public v0.2.0 release intentionally excludes that engine and its workbook.
+The v0.2.0 methodology is documentation-first and human-governed. It does not use automated favorable or adverse dispositions.
