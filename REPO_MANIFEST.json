@@ -60,8 +60,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4598,
-      "sha256": "58284040fc7239750df7b3d23529b03affd0a221f79d87f9106dfdd7dc578243"
+      "bytes": 4572,
+      "sha256": "daacf762a76ed9f76489e5ac8b884182a2ce1aa03523bc2612b47c7aa354755a"
     },
     {
       "path": "CITATION.cff",

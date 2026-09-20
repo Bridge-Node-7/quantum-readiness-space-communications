@@ -65,4 +65,4 @@ The v0.2.0 release established the documentation-first assessment framework desc
 
 ## 0.1.5 - 2026-06-19
 
-Historical initial release under the former identity. See [Consolidated Errata](ERRATA_v0.1.5.md) and [Compatibility and Supersession](docs/compatibility-and-supersession.md).
+Historical initial release. See [Consolidated Errata](ERRATA_v0.1.5.md) and [Compatibility and Supersession](docs/compatibility-and-supersession.md).
