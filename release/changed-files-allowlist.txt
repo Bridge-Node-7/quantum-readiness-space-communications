@@ -11,7 +11,6 @@ CHANGELOG.md
 CITATION.cff
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
-DISCLAIMER.md
 ERRATA_v0.1.5.md
 GOVERNANCE.md
 KNOWN_LIMITATIONS.md
@@ -24,7 +23,6 @@ RELEASE_REVIEW.md
 REPO_MANIFEST.json
 SECURITY.md
 SHA256SUMS
-STATUS.md
 VERSION
 assessment/critical-risk-overrides.md
 assessment/crypto-inventory-template.md
