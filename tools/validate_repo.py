@@ -446,8 +446,8 @@ def validate(root: Path) -> list[str]:
             if not row:
                 errors.append(f"Dependabot must review {ecosystem} dependencies")
                 continue
-            if ((row.get("schedule") or {}).get("interval")) != "weekly":
-                errors.append(f"Dependabot {ecosystem} review must run weekly")
+            if ((row.get("schedule") or {}).get("interval")) != "monthly":
+                errors.append(f"Dependabot {ecosystem} review must run monthly")
 
     workflow = yaml.safe_load((root / ".github/workflows/methodology-integrity.yml").read_text(encoding="utf-8"))
     workflow_text = (root / ".github/workflows/methodology-integrity.yml").read_text(encoding="utf-8")
