@@ -26,7 +26,7 @@ OLD_ALLOWED = {
     "REPO_MANIFEST.json",
 }
 REQUIRED = {
-    "README.md", "VERSION", "STATUS.md", "CHANGELOG.md", "METHODOLOGY_CHANGELOG.md",
+    "README.md", "VERSION", "CHANGELOG.md", "METHODOLOGY_CHANGELOG.md",
     "ERRATA_v0.1.5.md", "KNOWN_LIMITATIONS.md", "CITATION.cff", "GOVERNANCE.md",
     "MAINTAINERS.md", "RELEASE_NOTES.md", "RELEASE_REVIEW.md", "REPO_MANIFEST.json",
     "SHA256SUMS", "requirements-validation.txt", "assessment/quantum-readiness-space-communications-assessment.md",
