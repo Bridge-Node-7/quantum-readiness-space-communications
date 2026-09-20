@@ -385,8 +385,8 @@
     },
     {
       "path": "release/release-metadata.json",
-      "bytes": 498,
-      "sha256": "958408452f0dbae4eee405aa89cdfa83abd23a623c22d15bfd1e8d10752013d0"
+      "bytes": 436,
+      "sha256": "f6ff95ab47bf6df84cb719b8a4e25a13fce3c25a3b09f45fecb8b5a513482fbc"
     },
     {
       "path": "release/release-status.md",
