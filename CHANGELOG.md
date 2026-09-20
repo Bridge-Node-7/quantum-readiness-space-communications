@@ -13,13 +13,13 @@
 ## 0.2.3 - 2026-08-07
 
 - Aligned security and public contribution guidance with restricted issue creation.
-- Directed public-safe corrections to focused pull requests while preserving private vulnerability reporting.
+- Aligned contribution and security reporting guidance.
 - Reconciled current citation, review, notes, release metadata, package prefix, manifest, and SHA-256 records.
 - Preserved the v0.2.2 assessment methodology without modification.
 
 ## 0.2.2 - 2026-08-05
 
-- Rewrote the README around practical use and removed release-history content from the repository landing page.
+- Updated the README around practical use and clearer navigation.
 - Added audience-neutral, zero-context navigation and clearer reading paths.
 - Simplified the repository scope statement for first-time readers.
 - Aligned version, citation, release metadata, source review, package prefix, manifest, and SHA-256 records.
@@ -31,7 +31,7 @@
 - Updated the pinned `actions/setup-python` dependency from v5.6.0 to v7.0.0.
 - Grouped future GitHub Actions version updates into one Dependabot pull request.
 - Regenerated the repository manifest and SHA-256 records.
-- Clarified release status and final-seal treatment of documented maintenance pull requests.
+- Clarified release status and maintenance records.
 - Preserved the v0.2.0 methodology without modification.
 
 ## 0.2.0 - 2026-08-05
