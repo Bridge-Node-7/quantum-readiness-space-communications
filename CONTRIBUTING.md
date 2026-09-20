@@ -27,7 +27,9 @@ A methodology change must state:
 
 ## Publicly distributable requirements
 
-Do not submit real secrets, credentials, mission data, controlled technical data, sensitive architecture, customer information, or proprietary vendor evidence.
+Submit only material appropriate for unrestricted public distribution. If you
+are unsure whether material can be released publicly, do not include it in the
+pull request.
 
 ## Claim boundaries
 
