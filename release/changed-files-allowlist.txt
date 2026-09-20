@@ -73,7 +73,6 @@ examples/sample-smallsat-operator-assessment.md
 frameworks/pqc-migration-roadmap.md
 release/changed-files-allowlist.txt
 release/external-link-exceptions.json
-release/release-checklist.md
 release/release-metadata.json
 release/release-status.md
 release/repository-metadata.json

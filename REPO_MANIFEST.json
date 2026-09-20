@@ -5,7 +5,7 @@
   "version": "0.2.4",
   "release_date": "{{RELEASE_DATE}}",
   "methodology_scope": "documentation-first; no automated assessment engine or workbook decision calculator",
-  "controlled_file_count": 93,
+  "controlled_file_count": 92,
   "integrity_note": "REPO_MANIFEST.json and SHA256SUMS are excluded from controlled files. SHA256SUMS includes REPO_MANIFEST.json but excludes itself.",
   "files": [
     {
@@ -290,8 +290,8 @@
     },
     {
       "path": "docs/role-based-reading-paths.md",
-      "bytes": 1886,
-      "sha256": "ae0e8e826aaec28982b96b132ad2180d1f96adfee968f9ecd1033ce233658507"
+      "bytes": 1678,
+      "sha256": "2d9cf67e7214f1f3199e2885bc61ea1072298ae2f23eb3e16566fa37dc027eb0"
     },
     {
       "path": "docs/space-link-constraints.md",
@@ -370,8 +370,8 @@
     },
     {
       "path": "release/changed-files-allowlist.txt",
-      "bytes": 3216,
-      "sha256": "0cc661acfd29da92f9221ae8792ea858c4aeef451e2231dd8e18049e96993c53"
+      "bytes": 3187,
+      "sha256": "2606932b600b1e761c999ff58e3fd37a12f2542e5413cc8d5da6e7fbb8500d6c"
     },
     {
       "path": "release/external-link-exceptions.json",
@@ -379,14 +379,9 @@
       "sha256": "48e93aada49c5f21e5c6bfb7f1daf222837c1e8f649e8295e077717cd90035a5"
     },
     {
-      "path": "release/release-checklist.md",
-      "bytes": 913,
-      "sha256": "514af384777dc2c698a23696aa49d2e1cfaea3c9a87cc578f5d9896d646760b7"
-    },
-    {
       "path": "release/release-metadata.json",
-      "bytes": 498,
-      "sha256": "958408452f0dbae4eee405aa89cdfa83abd23a623c22d15bfd1e8d10752013d0"
+      "bytes": 436,
+      "sha256": "f6ff95ab47bf6df84cb719b8a4e25a13fce3c25a3b09f45fecb8b5a513482fbc"
     },
     {
       "path": "release/release-status.md",

@@ -4,6 +4,5 @@
   "version": "0.2.4",
   "release_date": "{{RELEASE_DATE}}",
   "description": "Evidence-based assessment and migration-planning framework for post-quantum cryptography across spacecraft, satellite links, ground systems, mission operations, and supporting vendors.",
-  "decision_pack_name": "Quantum Readiness Decision Pack",
-  "baseline_sha": "e3df3fbfdb6b9e6ca2097290bd4c133d41362e84"
+  "decision_pack_name": "Quantum Readiness Decision Pack"
 }
