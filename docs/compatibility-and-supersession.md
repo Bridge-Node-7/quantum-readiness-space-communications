@@ -1,8 +1,8 @@
 # Compatibility and Supersession
 
-## Historical baseline
+## Earlier baseline
 
-Version 0.1.5 was published under the former repository identity and remains preserved as historical evidence.
+Version 0.1.5 remains available as an earlier published baseline.
 
 ## Superseded methods
 
