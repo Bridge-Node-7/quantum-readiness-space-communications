@@ -59,9 +59,9 @@
 - Added repository-wide whitespace enforcement, exact readiness-stage semantics, all-condition critical-override semantics, and broader unsupported-assurance mutation guards.
 - Corrected owner-only required-check guidance to match the hosted `release-integrity` and `windows-validation` jobs.
 
-### Public scope decision
+### Public method scope
 
-The experimental engine and workbook candidates were evaluated and withdrawn from the public v0.2.0 scope. They remain internal experimental material and are not part of this release.
+The v0.2.0 release established the documentation-first assessment framework described above. The public method does not make automated readiness or operational-authorization decisions.
 
 ## 0.1.5 - 2026-06-19
 
