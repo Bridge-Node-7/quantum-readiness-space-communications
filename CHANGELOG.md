@@ -2,6 +2,7 @@
 
 ## 0.2.4 - Unreleased source
 
+- Refresh Federal PQC policy context from Executive Order 14412 and OMB Memorandum M-26-15, preserving explicit applicability boundaries and the unreleased-source posture.
 - Exclude ephemeral test/tool caches from the controlled release manifest without weakening tracked source integrity.
 - Report exact added, removed, and changed paths when manifest or checksum drift is detected.
 - Add regression tests proving `.pytest_cache` does not create false drift while real controlled-file changes fail with actionable diagnostics.
