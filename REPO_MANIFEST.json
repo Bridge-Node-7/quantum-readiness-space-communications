@@ -61,7 +61,7 @@
     {
       "path": "CHANGELOG.md",
       "bytes": 4748,
-      "sha256": "dd5c0c8d78caf35d444ea6e9a6670d9fbcf90a0bc785942061e3b3a4ec475e74"
+      "sha256": "848676eedfe29f2d54c00b03bc6880e1b3a824225b2b8ee86c963d8c10fc6220"
     },
     {
       "path": "CITATION.cff",
@@ -111,7 +111,7 @@
     {
       "path": "README.md",
       "bytes": 9737,
-      "sha256": "f566c955547e840eccbff8100992fd42620f7f3125ef79297f2af72d401081fb"
+      "sha256": "af7dc994868128e69350d63922624aef7b03a589a5b9b2a0a52f4c5a8662ac74"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -301,7 +301,7 @@
     {
       "path": "docs/standards-register.md",
       "bytes": 4867,
-      "sha256": "e38cdbb62d09403d170e3e5fb478aa4c24a868cc91b0fa198519f4a03638aa23"
+      "sha256": "fa34fb4d535994789a56c5493066eddce8d4b340a4e6f3e183214bf01fab1482"
     },
     {
       "path": "examples/sample-small-satellite-decision-pack/01-scope-and-link-map.md",
@@ -416,7 +416,7 @@
     {
       "path": "tests/test_methodology.py",
       "bytes": 4381,
-      "sha256": "563c86951ea799beb831b83a236baa86630c61381d860a6b9445b6cf618759b1"
+      "sha256": "8777df6fe66a4978342fea9ede35cc0e2349c3e31892b12b75ab43c0cd4bb4be"
     },
     {
       "path": "tests/test_public_boundary.py",
