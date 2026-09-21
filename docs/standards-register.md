@@ -1,6 +1,6 @@
 # Standards and Guidance Register
 
-**Last verified:** 2026-08-04
+**Last verified:** 2026-09-21
 
 | Authority | Identifier | Title | Status and date | Relevance | Applicability note | Official source |
 |---|---|---|---|---|---|---|
@@ -13,6 +13,8 @@
 | NIST | HQC selection | Fourth-round KEM selection | Selected, 2025-03-11; not final | Future diversity and transition awareness | Do not describe HQC as a finalized NIST standard | https://csrc.nist.gov/news/2025/hqc-announced-as-a-4th-round-selection |
 | NIST | FIPS 206 / FN-DSA | Additional digital signature standard | In development | Future signature option | Do not describe as final until NIST publishes the final standard | https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization |
 | CISA | PQC Product Categories | Product Categories for Technologies That Use Post-Quantum Cryptography Standards | Resource, 2026-01-23 | Product and procurement inventory | Informative resource, not product certification | https://www.cisa.gov/resources-tools/resources/product-categories-technologies-use-post-quantum-cryptography-standards |
+| White House | EO 14412 | Securing the Nation Against Advanced Cryptographic Attacks | Executive Order, 2026-06-22 | Accelerated Federal PQC transition; HVA/high-impact key establishment by 2030 and signatures by 2031; proposed FAR rule for covered contractors by 2030 | Federal and covered-contractor policy context only; applicability depends on the governing system, contract, and authority | https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/ |
+| OMB | M-26-15 | Execution of the Migration to Post-Quantum Cryptography | Memorandum, 2026-06-24 | Federal phased migration: prioritized key establishment 2028–2030, signature migration 2031, full migration 2035 | Applies to covered Federal agency systems and explicitly excludes National Security Systems; not a universal commercial deadline | https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf |
 | IETF | RFC 9954 | Hybrid Key Exchange in TLS 1.3 | Informational, 2026-07 | Hybrid transition construction | Informational RFC, not Internet Standards Track | https://www.rfc-editor.org/info/rfc9954/ |
 | CCSDS | 355.0-B-2 | Space Data Link Security Protocol | Recommended Standard, Issue 2, 2022-07 | Space data-link security services | Does not mandate a specific cryptographic algorithm | https://ccsds.org/Pubs/355x0b2.pdf |
 | CCSDS | 352.0-B-2 | CCSDS Cryptographic Algorithms | Recommended Standard, Issue 2, 2019-08 | CCSDS algorithm context | Verify current mission and agency profile before use | https://ccsds.org/Pubs/352x0b2.pdf |
