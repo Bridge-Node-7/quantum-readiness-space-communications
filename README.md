@@ -45,6 +45,15 @@ Do not treat missing information as favorable evidence.
 
 Start with inventory. Do not make a favorable exposure or readiness statement before the relevant systems, cryptography, owners, and evidence are in scope.
 
+## Current Federal PQC Policy Context
+
+Federal policy now provides explicit transition milestones that may affect Federal systems and covered contractors:
+
+- Executive Order 14412 directs Federal migration to NIST-approved PQC standards, requires high-value assets and high-impact systems to use PQC for key establishment by **December 31, 2030** and digital signatures by **December 31, 2031**, and directs a proposed FAR rule requiring covered contractors to comply by **December 31, 2030** with applicable NIST FIPS incorporating PQC algorithms.
+- OMB Memorandum M-26-15 phases Federal agency migration through **2035**, including prioritized key-establishment migration during 2028–2030, signature migration in 2031, and full migration of remaining covered systems by 2035. The memorandum states that it does not apply to National Security Systems.
+
+These dates are policy context, not an automatic compliance determination for every spacecraft, operator, supplier, contract, or mission. Establish the governing authority and contract requirements before treating a date as applicable. See the [Standards and Guidance Register](docs/standards-register.md).
+
 ## What the Decision Pack Contains
 
 The framework keeps four decision inputs separate:
