@@ -5,6 +5,18 @@
       "reason": "Official CISA resource is publicly indexed and current but may return HTTP 403 to automated validators; existence was independently verified through CISA search and announcement pages.",
       "verified_on": "2026-08-04",
       "owner": "Bridge Node 7 standards review"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+      "reason": "Official White House Executive Order 14412 source was independently verified on 2026-09-21 but may reject automated HEAD or ranged GET validation from hosted runners.",
+      "verified_on": "2026-09-21",
+      "owner": "Bridge Node 7 standards review"
+    },
+    {
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/06/M-26-15-Execution-of-the-Migration-to-Post-Quantum-Cryptography.pdf",
+      "reason": "Official OMB M-26-15 PDF was independently verified on 2026-09-21 but White House PDF delivery may reject automated HEAD or ranged GET validation from hosted runners.",
+      "verified_on": "2026-09-21",
+      "owner": "Bridge Node 7 standards review"
     }
   ]
 }
