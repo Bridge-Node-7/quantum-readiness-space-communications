@@ -375,8 +375,8 @@
     },
     {
       "path": "release/external-link-exceptions.json",
-      "bytes": 460,
-      "sha256": "48e93aada49c5f21e5c6bfb7f1daf222837c1e8f649e8295e077717cd90035a5"
+      "bytes": 1294,
+      "sha256": "38ca5bd7c89876d20449c924242c5bf025e95ca347ffb83e4293f72c58fa9086"
     },
     {
       "path": "release/release-metadata.json",
