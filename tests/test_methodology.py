@@ -68,6 +68,15 @@ class MethodologyIntegrityTests(unittest.TestCase):
         self.assertEqual("0.2.4", self.read("VERSION").strip())
         self.assertEqual("Quantum Readiness Decision Pack", metadata["decision_pack_name"])
 
+    def test_current_federal_pqc_policy_context(self):
+        register = self.read("docs/standards-register.md")
+        readme = self.read("README.md")
+        for token in ["EO 14412", "M-26-15", "2030", "2031", "2035"]:
+            self.assertIn(token, register)
+        self.assertIn("Federal PQC Policy Context", readme)
+        self.assertIn("not an automatic compliance determination", readme)
+        self.assertIn("does not apply to National Security Systems", readme)
+
     def test_current_source_is_not_presented_as_formally_released(self):
         status = self.read("release/release-status.md")
         self.assertIn("Latest published GitHub Release: **v0.2.3**", status)
