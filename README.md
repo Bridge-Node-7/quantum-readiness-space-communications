@@ -6,6 +6,10 @@ This repository helps teams identify cryptographic dependencies, document quantu
 
 It is documentation-first. It provides methods, templates, examples, and validation tools. It does not connect to live systems, implement cryptography, or issue certification or operational authorization.
 
+## Bridge Node 7 system role
+
+Quantum Readiness for Space Communications is the **post-quantum cryptographic-transition domain implementation** within [Bridge Node 7's Frontier Assurance Architecture](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/main/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md). Its Quantum Readiness Decision Pack is a domain-specific review artifact; it does not create a separate enterprise decision authority or automatic compliance determination.
+
 ## Start Here
 
 | Goal | Start with | Continue with |
