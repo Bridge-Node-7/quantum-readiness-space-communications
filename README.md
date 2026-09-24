@@ -163,6 +163,6 @@ This framework supports evidence-based planning. It does not replace cryptograph
 
 ## License and Citation
 
-MIT License. See [LICENSE](LICENSE).
+MIT License. See [LICENSE](LICENSE). See [NOTICE](NOTICE) for authoritative-origin and brand boundaries.
 
 Use [CITATION.cff](CITATION.cff) and cite the exact tagged release used for an assessment or derivative work.
