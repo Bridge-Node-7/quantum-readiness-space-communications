@@ -46,7 +46,7 @@
     {
       "path": ".github/workflows/codeql.yml",
       "bytes": 693,
-      "sha256": "63a13f560530d4d0a5bccceeeddc80875fff483f9e157a8067da0dbecb802382"
+      "sha256": "375d28fd25ef30a1925ff450c14a83ad84669042dcbc8c70305e7ceafb1cf15e"
     },
     {
       "path": ".github/workflows/methodology-integrity.yml",
