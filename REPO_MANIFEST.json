@@ -320,13 +320,13 @@
     },
     {
       "path": "examples/sample-small-satellite-decision-pack/04-migration-readiness-profile.md",
-      "bytes": 954,
-      "sha256": "d8efd81e7cd7c0de69d8ae682345a7329fbf6354ec8213e4baa48ff11b8bcaf0"
+      "bytes": 2413,
+      "sha256": "bffee7b9deb47115abee1f7bd97ad393c778cb7453b4a5eb6a67566fed25c16e"
     },
     {
       "path": "examples/sample-small-satellite-decision-pack/05-evidence-confidence-and-coverage.md",
-      "bytes": 1227,
-      "sha256": "77c5bee8cdb8a0328d08546cb97d387f977b2d264b8945bdb6879b2ba43b0685"
+      "bytes": 10128,
+      "sha256": "d9374ea8d204dcee30fb38557d1af68649c9e36f4396d3ef5c435e29a8476669"
     },
     {
       "path": "examples/sample-small-satellite-decision-pack/06-critical-risk-overrides.md",
@@ -350,8 +350,8 @@
     },
     {
       "path": "examples/sample-small-satellite-decision-pack/10-decision-record-and-review.md",
-      "bytes": 898,
-      "sha256": "6bd47495555d246a818735b1628668a7593435275427df2443671cbf9a9fd651"
+      "bytes": 1035,
+      "sha256": "46298eca21c6721dcbb13b515a2f7afd29a2031acdc593c9ec0818b7aa800625"
     },
     {
       "path": "examples/sample-small-satellite-decision-pack/README.md",

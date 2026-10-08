@@ -10,7 +10,7 @@ Authorize a controlled migration pilot and the P0 evidence actions. Do not autho
 
 ## Rationale
 
-CR-01, CR-02, CR-03, CR-05, CR-06, CR-07, CR-09, CR-11, and CR-12 remain open. Evidence coverage is 64 percent and critical evidence is conflicting.
+CR-01, CR-02, CR-03, CR-05, CR-06, CR-07, CR-09, CR-11, and CR-12 remain open. Evidence coverage is NOT_ESTABLISHED pending the scope-owner counting decisions and evidence review in the [coverage register](05-evidence-confidence-and-coverage.md); critical evidence remains conflicting.
 
 ## Limitations
 
