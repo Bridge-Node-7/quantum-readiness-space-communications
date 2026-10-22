@@ -55,8 +55,8 @@
     },
     {
       "path": ".github/workflows/privacy-preflight.yml",
-      "bytes": 265,
-      "sha256": "97ef549d18120b0f4d67539bec03f6bb3ba71b97c2748ea5cd86515c2f327c40"
+      "bytes": 301,
+      "sha256": "a6051880eb99f78019924cd805db5b5e884e88f1adc0e7cdbbcf240615f6a439"
     },
     {
       "path": ".gitignore",
