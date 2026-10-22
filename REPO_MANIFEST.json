@@ -5,7 +5,7 @@
   "version": "0.2.4",
   "release_date": "{{RELEASE_DATE}}",
   "methodology_scope": "documentation-first; no automated assessment engine or workbook decision calculator",
-  "controlled_file_count": 92,
+  "controlled_file_count": 93,
   "integrity_note": "REPO_MANIFEST.json and SHA256SUMS are excluded from controlled files. SHA256SUMS includes REPO_MANIFEST.json but excludes itself.",
   "files": [
     {
@@ -52,6 +52,11 @@
       "path": ".github/workflows/methodology-integrity.yml",
       "bytes": 2439,
       "sha256": "98252f98d2fdece642bfd2f6670af4e8b5324e1ca8ff20b618dce30ada8a385f"
+    },
+    {
+      "path": ".github/workflows/privacy-preflight.yml",
+      "bytes": 265,
+      "sha256": "97ef549d18120b0f4d67539bec03f6bb3ba71b97c2748ea5cd86515c2f327c40"
     },
     {
       "path": ".gitignore",
