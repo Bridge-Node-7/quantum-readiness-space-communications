@@ -5,7 +5,7 @@
   "version": "0.2.4",
   "release_date": "{{RELEASE_DATE}}",
   "methodology_scope": "documentation-first; no automated assessment engine or workbook decision calculator",
-  "controlled_file_count": 93,
+  "controlled_file_count": 96,
   "integrity_note": "REPO_MANIFEST.json and SHA256SUMS are excluded from controlled files. SHA256SUMS includes REPO_MANIFEST.json but excludes itself.",
   "files": [
     {
@@ -17,6 +17,11 @@
       "path": ".github/CODEOWNERS",
       "bytes": 17,
       "sha256": "48db16f92e402823d375eff6f217ecd2afb6539fce32ffa3dd8aef5412e58819"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "bytes": 505,
+      "sha256": "b1952d5c7d72868ca11808ae4222b48d876719d3febb81426223b08ddd0ead13"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/documentation.yml",
@@ -34,11 +39,6 @@
       "sha256": "108b3e243af8ec8411d003227ddc1ffcdc35ddb60dcd881741f9e9ec46f637e9"
     },
     {
-      "path": ".github/dependabot.yml",
-      "bytes": 505,
-      "sha256": "b1952d5c7d72868ca11808ae4222b48d876719d3febb81426223b08ddd0ead13"
-    },
-    {
       "path": ".github/pull_request_template.md",
       "bytes": 771,
       "sha256": "4bed28f716a9c2c2a9817fce7d716618f46e96fa8bbac865495d7bdf0715bbc2"
@@ -50,8 +50,8 @@
     },
     {
       "path": ".github/workflows/methodology-integrity.yml",
-      "bytes": 2439,
-      "sha256": "98252f98d2fdece642bfd2f6670af4e8b5324e1ca8ff20b618dce30ada8a385f"
+      "bytes": 2539,
+      "sha256": "31f4c27522d8c167f927379e50b725b2df35c944264f8a160a9ab7817c01183d"
     },
     {
       "path": ".github/workflows/privacy-preflight.yml",
@@ -62,81 +62,6 @@
       "path": ".gitignore",
       "bytes": 134,
       "sha256": "fff82464ea2f3cf10856d4c5de91f4614b663af4d5c094bbc0b58677bd939e01"
-    },
-    {
-      "path": "CHANGELOG.md",
-      "bytes": 4748,
-      "sha256": "848676eedfe29f2d54c00b03bc6880e1b3a824225b2b8ee86c963d8c10fc6220"
-    },
-    {
-      "path": "CITATION.cff",
-      "bytes": 793,
-      "sha256": "aa2beb4a05fdb0e39111796ea800219ee516cfe3e16a2a7d56ef46b691460515"
-    },
-    {
-      "path": "CODE_OF_CONDUCT.md",
-      "bytes": 1006,
-      "sha256": "90d597094132baa7727c3dae623d1cd42946ca7b37724cd4a5040819d8358e07"
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "bytes": 1246,
-      "sha256": "70bc1d2a949b9d7b8be62e9e2719036822eb335fdf76d93ba600b5ecc0faa2e9"
-    },
-    {
-      "path": "ERRATA_v0.1.5.md",
-      "bytes": 765,
-      "sha256": "b85e0747e0d06698b0c01bd9acca53e7c25ab7d1131a722c1393a744d1447711"
-    },
-    {
-      "path": "GOVERNANCE.md",
-      "bytes": 988,
-      "sha256": "3f936ada9374a2b2acc8e46b127da8e3dc94cbecf2b5a823fe3600ad3ce40b91"
-    },
-    {
-      "path": "KNOWN_LIMITATIONS.md",
-      "bytes": 1393,
-      "sha256": "7c1642564c17be6f070cd8f273b0ace7c333970170522929903d56e7d3756dc4"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 1087,
-      "sha256": "09ee52b643dd9b942807196c3ab67e3a82a79f2f3da39cf5f80c93889d7283a7"
-    },
-    {
-      "path": "MAINTAINERS.md",
-      "bytes": 307,
-      "sha256": "9672f2a14fc319dae87fac0b4e53a50a5bd33e7929b79dc9c1d4f7710b0b9a50"
-    },
-    {
-      "path": "METHODOLOGY_CHANGELOG.md",
-      "bytes": 973,
-      "sha256": "50078ab6879738741e96437c6535ed2dfb33e674b2b96d1932ef61a02053bd36"
-    },
-    {
-      "path": "README.md",
-      "bytes": 9992,
-      "sha256": "8ea0022628198f0e1e28fbd2eccbb9cf7579c51534ffcc3ecb86833c906417ba"
-    },
-    {
-      "path": "RELEASE_NOTES.md",
-      "bytes": 1249,
-      "sha256": "4d0bea53d3947636561c01030649606ee82df58fe9e493d7c1ba21185fbc5e3d"
-    },
-    {
-      "path": "RELEASE_REVIEW.md",
-      "bytes": 1063,
-      "sha256": "7d7503a058b540003242549fcb4c728258d95d9eb96eeef9db543d4fd825d512"
-    },
-    {
-      "path": "SECURITY.md",
-      "bytes": 570,
-      "sha256": "1557789c24065c5129fa7b3f6b27f3b0b2ce500b520f52edf015a2cf5677d5af"
-    },
-    {
-      "path": "VERSION",
-      "bytes": 6,
-      "sha256": "1725bfa6524c5265e7c171cf06568417d39b947fff49c242f03859479c82334b"
     },
     {
       "path": "assessment/critical-risk-overrides.md",
@@ -214,9 +139,24 @@
       "sha256": "c6f05969577a3b03df989e752713fddb627e56e0ed4bf3caf0b0599b04ec82a4"
     },
     {
-      "path": "decision-pack/README.md",
-      "bytes": 1642,
-      "sha256": "09442dab79ee61f1461413cfd83d43558af5d267615d449a8af40f84bfa3057a"
+      "path": "CHANGELOG.md",
+      "bytes": 4748,
+      "sha256": "848676eedfe29f2d54c00b03bc6880e1b3a824225b2b8ee86c963d8c10fc6220"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 793,
+      "sha256": "aa2beb4a05fdb0e39111796ea800219ee516cfe3e16a2a7d56ef46b691460515"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 1006,
+      "sha256": "90d597094132baa7727c3dae623d1cd42946ca7b37724cd4a5040819d8358e07"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1246,
+      "sha256": "70bc1d2a949b9d7b8be62e9e2719036822eb335fdf76d93ba600b5ecc0faa2e9"
     },
     {
       "path": "decision-pack/decision-summary-template.md",
@@ -224,14 +164,14 @@
       "sha256": "367cdcc86387b1fbb04dfc34e926a5eec2ce4d76bb69e29ec4e0fbf00da04409"
     },
     {
+      "path": "decision-pack/README.md",
+      "bytes": 1642,
+      "sha256": "09442dab79ee61f1461413cfd83d43558af5d267615d449a8af40f84bfa3057a"
+    },
+    {
       "path": "decision-pack/review-record-template.md",
       "bytes": 402,
       "sha256": "fd1a65875aaffa4d4818dd3ef3b8230f218804ed761a9b4c2699c42b51011614"
-    },
-    {
-      "path": "docs/README.md",
-      "bytes": 2136,
-      "sha256": "59b575c966f0230e10f308c97e6ac4278df43c8681cf9ebfdf9b1e02ac7ef288"
     },
     {
       "path": "docs/accessibility-and-mobile-use.md",
@@ -289,9 +229,19 @@
       "sha256": "470a380298dc3782190d9f15c7378328d30c50447e63f52f49ce9d5fd71bb504"
     },
     {
+      "path": "docs/README.md",
+      "bytes": 2136,
+      "sha256": "59b575c966f0230e10f308c97e6ac4278df43c8681cf9ebfdf9b1e02ac7ef288"
+    },
+    {
       "path": "docs/references.md",
       "bytes": 316,
       "sha256": "09d7cec8f4f388ba0bded1a73eba0530b69e6e22477056666d3cbf69ed86d844"
+    },
+    {
+      "path": "docs/release-automation-readiness.md",
+      "bytes": 2440,
+      "sha256": "059da0746cb185589fb954107d85f26cd1ad93b79c62feb6f6438c0ac0080bea"
     },
     {
       "path": "docs/role-based-reading-paths.md",
@@ -307,6 +257,11 @@
       "path": "docs/standards-register.md",
       "bytes": 4867,
       "sha256": "fa34fb4d535994789a56c5493066eddce8d4b340a4e6f3e183214bf01fab1482"
+    },
+    {
+      "path": "ERRATA_v0.1.5.md",
+      "bytes": 765,
+      "sha256": "b85e0747e0d06698b0c01bd9acca53e7c25ab7d1131a722c1393a744d1447711"
     },
     {
       "path": "examples/sample-small-satellite-decision-pack/01-scope-and-link-map.md",
@@ -374,6 +329,46 @@
       "sha256": "76aba87e56095966a930a07f50e014be78dfdb7c5a1e0ccccea2ef8c6066573a"
     },
     {
+      "path": "GOVERNANCE.md",
+      "bytes": 988,
+      "sha256": "3f936ada9374a2b2acc8e46b127da8e3dc94cbecf2b5a823fe3600ad3ce40b91"
+    },
+    {
+      "path": "KNOWN_LIMITATIONS.md",
+      "bytes": 1393,
+      "sha256": "7c1642564c17be6f070cd8f273b0ace7c333970170522929903d56e7d3756dc4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1087,
+      "sha256": "09ee52b643dd9b942807196c3ab67e3a82a79f2f3da39cf5f80c93889d7283a7"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "bytes": 307,
+      "sha256": "9672f2a14fc319dae87fac0b4e53a50a5bd33e7929b79dc9c1d4f7710b0b9a50"
+    },
+    {
+      "path": "METHODOLOGY_CHANGELOG.md",
+      "bytes": 973,
+      "sha256": "50078ab6879738741e96437c6535ed2dfb33e674b2b96d1932ef61a02053bd36"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9992,
+      "sha256": "8ea0022628198f0e1e28fbd2eccbb9cf7579c51534ffcc3ecb86833c906417ba"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1249,
+      "sha256": "4d0bea53d3947636561c01030649606ee82df58fe9e493d7c1ba21185fbc5e3d"
+    },
+    {
+      "path": "RELEASE_REVIEW.md",
+      "bytes": 1063,
+      "sha256": "7d7503a058b540003242549fcb4c728258d95d9eb96eeef9db543d4fd825d512"
+    },
+    {
       "path": "release/changed-files-allowlist.txt",
       "bytes": 3187,
       "sha256": "2606932b600b1e761c999ff58e3fd37a12f2542e5413cc8d5da6e7fbb8500d6c"
@@ -414,6 +409,11 @@
       "sha256": "e1f912e10857c68d046b8d8ee27287b371bb93abb58ba74bc3e6be37c759c034"
     },
     {
+      "path": "SECURITY.md",
+      "bytes": 570,
+      "sha256": "1557789c24065c5129fa7b3f6b27f3b0b2ce500b520f52edf015a2cf5677d5af"
+    },
+    {
       "path": "tests/test_external_links.py",
       "bytes": 1916,
       "sha256": "02197dd1c3803d9192a763311acaacace18d5451939bb954cb3d0c8b869b6865"
@@ -439,6 +439,11 @@
       "sha256": "75d07a977be182bcb8fdee6e0d0a1685dc494264584603e822272b8e8541e3da"
     },
     {
+      "path": "tests/test_version_consistency.py",
+      "bytes": 2531,
+      "sha256": "01ad2fffb02c364ae8124cbfc6c483a1b83f95ace5811700dfdb08e016dc6646"
+    },
+    {
       "path": "tools/build_release.py",
       "bytes": 1797,
       "sha256": "3a567e8f1f3be5a73ac62b3f6f1cd29ba094a5a3ff03a041bb50ba979349979b"
@@ -452,6 +457,11 @@
       "path": "tools/check_staged_whitespace.py",
       "bytes": 1581,
       "sha256": "13dfacab513577f71af335e52595748c29570573621290d90cccd63167a376cf"
+    },
+    {
+      "path": "tools/check_version_consistency.py",
+      "bytes": 2299,
+      "sha256": "3ffb14a1a1cbbf42cac76507d3eece06303b43fc25bb3329e9fe32adc41ac6cb"
     },
     {
       "path": "tools/generate_manifest.py",
@@ -472,6 +482,11 @@
       "path": "tools/validate_repo.py",
       "bytes": 26470,
       "sha256": "eeadde598d6176d574640fe10332487219825f962823636ad493d8bebecc9004"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 6,
+      "sha256": "1725bfa6524c5265e7c171cf06568417d39b947fff49c242f03859479c82334b"
     }
   ]
 }
