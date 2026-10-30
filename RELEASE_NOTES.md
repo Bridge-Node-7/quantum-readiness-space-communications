@@ -1,8 +1,8 @@
-# Quantum Readiness for Space Communications v0.2.4
+# Quantum Readiness for Space Communications v0.2.5
 
 ## Source summary
 
-Version 0.2.4 is an unreleased validation-hygiene source update over formal release v0.2.3.
+Version 0.2.5 is an unreleased validation-hygiene source update over formal release v0.2.3.
 
 It:
 

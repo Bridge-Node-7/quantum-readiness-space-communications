@@ -128,8 +128,8 @@ def validate(root: Path) -> list[str]:
         if not (root / rel).is_file():
             errors.append(f"missing required file: {rel}")
 
-    if (root / "VERSION").read_text(encoding="utf-8").strip() != "0.2.4":
-        errors.append("VERSION must be 0.2.4")
+    if (root / "VERSION").read_text(encoding="utf-8").strip() != "0.2.5":
+        errors.append("VERSION must be 0.2.5")
 
     attributes = (root / ".gitattributes").read_text(encoding="utf-8")
     if "* text=auto eol=lf" not in attributes:
@@ -394,7 +394,7 @@ def validate(root: Path) -> list[str]:
             errors.append(f"CITATION.cff required field missing: {field}")
 
     metadata = json.loads((root / "release/release-metadata.json").read_text(encoding="utf-8"))
-    for field, expected in [("name", SLUG), ("title", TITLE), ("version", "0.2.4"), ("decision_pack_name", DECISION_PACK)]:
+    for field, expected in [("name", SLUG), ("title", TITLE), ("version", "0.2.5"), ("decision_pack_name", DECISION_PACK)]:
         if metadata.get(field) != expected:
             errors.append(f"release metadata mismatch: {field}")
     release_date = metadata.get("release_date")
