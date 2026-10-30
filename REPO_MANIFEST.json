@@ -400,8 +400,8 @@
     },
     {
       "path": "release-please-config.json",
-      "bytes": 1220,
-      "sha256": "8f00460783afd2148b69e001711a39d08253bba7bcea8cc4daed4ae9009be8bb"
+      "bytes": 1253,
+      "sha256": "f93c97cd61a1ce7eab9df1e79cb6ce62b82c1219b8bb507ed2b95cf8b8dd8802"
     },
     {
       "path": "release/changed-files-allowlist.txt",
