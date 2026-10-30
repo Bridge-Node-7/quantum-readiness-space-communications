@@ -81,17 +81,17 @@
     {
       "path": ".release-please-manifest.json",
       "bytes": 19,
-      "sha256": "1216761ab673fd4be60bd016e6ed772b4e6d2a459e71c77a0d7195b5cedc7b63"
+      "sha256": "f945a81c2f3405d8cdab7dd1f583898a8995bc16d58b6ad98a675ba0b2e112d9"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4748,
-      "sha256": "848676eedfe29f2d54c00b03bc6880e1b3a824225b2b8ee86c963d8c10fc6220"
+      "bytes": 11269,
+      "sha256": "5492c58e269c5114af321816bb0fd3823205bcadc153702d1f662eb47db32afb"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 793,
-      "sha256": "aa2beb4a05fdb0e39111796ea800219ee516cfe3e16a2a7d56ef46b691460515"
+      "bytes": 788,
+      "sha256": "746199aa06cc8024c244abc68a16ab40b5f25b6e8299a896932e406cf536146e"
     },
     {
       "path": "CODE_OF_CONDUCT.md",
@@ -141,12 +141,12 @@
     {
       "path": "RELEASE_NOTES.md",
       "bytes": 1249,
-      "sha256": "4d0bea53d3947636561c01030649606ee82df58fe9e493d7c1ba21185fbc5e3d"
+      "sha256": "03500d434296fde56af3f726483aebe4c9c8fc7c419dfbed446148924921f73a"
     },
     {
       "path": "RELEASE_REVIEW.md",
       "bytes": 1063,
-      "sha256": "7d7503a058b540003242549fcb4c728258d95d9eb96eeef9db543d4fd825d512"
+      "sha256": "d700f47dce3da59769c0f6130f64ad6958c4223bd946cd68147b93cf9d4ed6a1"
     },
     {
       "path": "SECURITY.md",
@@ -156,7 +156,7 @@
     {
       "path": "VERSION",
       "bytes": 6,
-      "sha256": "1725bfa6524c5265e7c171cf06568417d39b947fff49c242f03859479c82334b"
+      "sha256": "e959f750e92dbb7614ae28ac96f0a37272caed81d8bbb758791af7bfbb6106a0"
     },
     {
       "path": "assessment/critical-risk-overrides.md",
@@ -400,8 +400,8 @@
     },
     {
       "path": "release-please-config.json",
-      "bytes": 1220,
-      "sha256": "8f00460783afd2148b69e001711a39d08253bba7bcea8cc4daed4ae9009be8bb"
+      "bytes": 1219,
+      "sha256": "c99e57f5e199c4e3372da6b9b15c5524f0cf5dbbeb97e5e24e89596b4d666ff1"
     },
     {
       "path": "release/changed-files-allowlist.txt",
@@ -416,12 +416,12 @@
     {
       "path": "release/release-metadata.json",
       "bytes": 436,
-      "sha256": "f6ff95ab47bf6df84cb719b8a4e25a13fce3c25a3b09f45fecb8b5a513482fbc"
+      "sha256": "2913f7dc80f484ecb897c7bd8d0e8e0484ce03260c4ddd65d914af8b33c82764"
     },
     {
       "path": "release/release-status.md",
       "bytes": 572,
-      "sha256": "bf7f6a6232d6e11fe4f3f0391a2496de867530968090699e9b8b5ea3f94a4fa1"
+      "sha256": "6e9102d5a901ca1105fe6a728b505fc31897b1d9c794ef62995ab6c6a61c0dbc"
     },
     {
       "path": "release/repository-metadata.json",
@@ -476,7 +476,7 @@
     {
       "path": "tools/build_release.py",
       "bytes": 1797,
-      "sha256": "3a567e8f1f3be5a73ac62b3f6f1cd29ba094a5a3ff03a041bb50ba979349979b"
+      "sha256": "bed9bc4484ba0de8a9078117f43de43ae67085bcc573cfd610acb2ded7ce5ba9"
     },
     {
       "path": "tools/check_external_links.py",
@@ -490,8 +490,8 @@
     },
     {
       "path": "tools/check_version_consistency.py",
-      "bytes": 2299,
-      "sha256": "3ffb14a1a1cbbf42cac76507d3eece06303b43fc25bb3329e9fe32adc41ac6cb"
+      "bytes": 2305,
+      "sha256": "c07fae5ce36839786ee5e2b127c3848eda22a1822e91918445f422bffbaf553a"
     },
     {
       "path": "tools/generate_manifest.py",
@@ -511,7 +511,7 @@
     {
       "path": "tools/validate_repo.py",
       "bytes": 26470,
-      "sha256": "eeadde598d6176d574640fe10332487219825f962823636ad493d8bebecc9004"
+      "sha256": "615d13e048ff3152d36ac3c42015655773d9ac92cccd6b3647d9b5bbfbb681c4"
     }
   ]
 }
