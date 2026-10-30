@@ -50,8 +50,8 @@
     },
     {
       "path": ".github/workflows/docs-link-check.yml",
-      "bytes": 925,
-      "sha256": "1910814a68cb2b29f387b6eb7bc5740d05d078053e663dfaddeb59341f94554d"
+      "bytes": 973,
+      "sha256": "0742e0c866ad7ef6975ce6545d47e30651431a59681c878a9bface699ff5662a"
     },
     {
       "path": ".github/workflows/methodology-integrity.yml",
