@@ -29,6 +29,8 @@ jobs:
           cache-dependency-path: requirements-validation.txt
       - name: Install validation dependencies
         run: python -m pip install -r requirements-validation.txt
+      - name: Check source-version agreement
+        run: python tools/check_version_consistency.py
       - name: Check dependency consistency
         run: python -m pip check
       - name: Prepare expected integrity evidence
