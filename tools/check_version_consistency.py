@@ -39,7 +39,7 @@ def check(root: Path) -> list[str]:
             issues.append(f"{path} version disagrees with VERSION")
 
     checks = (
-        ("CHANGELOG.md", rf"(?m)^##\s+{re.escape(version)}\b"),
+        ("CHANGELOG.md", rf"(?m)^##\s+\[?{re.escape(version)}\]?\b"),
         ("RELEASE_NOTES.md", rf"(?m)^#\s+.*\bv{re.escape(version)}\s*$"),
         ("RELEASE_REVIEW.md", rf"\*\*Version:\*\*\s+{re.escape(version)}\b"),
         ("release/release-status.md", rf"Current source version:\s+\*\*{re.escape(version)}\*\*"),
