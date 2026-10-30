@@ -86,7 +86,7 @@
     {
       "path": "CHANGELOG.md",
       "bytes": 11269,
-      "sha256": "5492c58e269c5114af321816bb0fd3823205bcadc153702d1f662eb47db32afb"
+      "sha256": "69c353d4a6c1f45ee21aa53bea14e16850419644faa6a7eb29bc7f91ed04c14c"
     },
     {
       "path": "CITATION.cff",
@@ -450,8 +450,8 @@
     },
     {
       "path": "tests/test_methodology.py",
-      "bytes": 4381,
-      "sha256": "8777df6fe66a4978342fea9ede35cc0e2349c3e31892b12b75ab43c0cd4bb4be"
+      "bytes": 4528,
+      "sha256": "e9d1e54cb8d77a6ef01ad555e96b59bd41899dfa99770b98924f854ca233df1e"
     },
     {
       "path": "tests/test_public_boundary.py",
