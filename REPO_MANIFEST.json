@@ -55,8 +55,8 @@
     },
     {
       "path": ".github/workflows/methodology-integrity.yml",
-      "bytes": 2588,
-      "sha256": "28fb94053d3d0a03b36afed77f7e26c882e41ec8af515db9b2cde9ab87a64a26"
+      "bytes": 3624,
+      "sha256": "8ef83ab74c590ad28a63394e74251208b75159bfb67599dc73e6b69af5ad94e1"
     },
     {
       "path": ".github/workflows/privacy-preflight.yml",
@@ -135,8 +135,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9992,
-      "sha256": "8ea0022628198f0e1e28fbd2eccbb9cf7579c51534ffcc3ecb86833c906417ba"
+      "bytes": 10293,
+      "sha256": "3947cd40789f91f32c9e3673b85f884cc815d32384ab0781f57614c4d4266a9d"
     },
     {
       "path": "RELEASE_NOTES.md",

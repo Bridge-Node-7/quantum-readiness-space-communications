@@ -2,6 +2,8 @@
 
 Evidence-based assessment and migration-planning framework for post-quantum cryptography across spacecraft, satellite links, ground systems, mission operations, and supporting vendors.
 
+Stable public release — see the latest [GitHub Release](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/latest). Quickstart: `bash scripts/validate.sh`. Collaboration: [GitHub Issues](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues).
+
 This repository helps teams identify cryptographic dependencies, document quantum-era exposure, plan migration, and assemble a human-reviewed **Quantum Readiness Decision Pack**.
 
 It is documentation-first. It provides methods, templates, examples, and validation tools. It does not connect to live systems, implement cryptography, or issue certification or operational authorization.
