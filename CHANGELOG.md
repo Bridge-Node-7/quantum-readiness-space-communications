@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2.5](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/compare/v0.2.4...v0.2.5) (2026-10-30)
+## [0.2.5](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/compare/v0.2.3...v0.2.5) (2026-10-30)
 
 
 ### Bug Fixes
