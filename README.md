@@ -1,6 +1,18 @@
 # Quantum Readiness for Space Communications
 
+[![Release](https://img.shields.io/github/v/release/Bridge-Node-7/quantum-readiness-space-communications?display_name=tag)](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/Bridge-Node-7/quantum-readiness-space-communications/methodology-integrity.yml?branch=main&label=CI)](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/actions/workflows/methodology-integrity.yml)
+
 Evidence-based assessment and migration-planning framework for post-quantum cryptography across spacecraft, satellite links, ground systems, mission operations, and supporting vendors.
+
+| | |
+|---|---|
+| **What** | Documentation-first methods, templates, and validators for a human-reviewed Quantum Readiness Decision Pack |
+| **Status** | Stable public release — latest [GitHub Release](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/latest) |
+| **Quickstart** | `bash scripts/validate.sh` · see repository docs for the Decision Pack workflow |
+| **Architecture** | [Frontier Assurance Architecture](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/main/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md) |
+| **Collaboration** | [Issues](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues) · [Innovation Partnerships](https://bridgenode7.com/partner/) |
 
 This repository helps teams identify cryptographic dependencies, document quantum-era exposure, plan migration, and assemble a human-reviewed **Quantum Readiness Decision Pack**.
 
