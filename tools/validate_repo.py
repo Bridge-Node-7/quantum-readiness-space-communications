@@ -129,7 +129,7 @@ def validate(root: Path) -> list[str]:
             errors.append(f"missing required file: {rel}")
 
     if (root / "VERSION").read_text(encoding="utf-8").strip() != "0.2.4":
-        errors.append("VERSION must be 0.2.4")
+        errors.append("VERSION must be 0.2.5")
 
     attributes = (root / ".gitattributes").read_text(encoding="utf-8")
     if "* text=auto eol=lf" not in attributes:

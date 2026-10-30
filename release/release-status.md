@@ -3,7 +3,7 @@
 Quantum Readiness for Space Communications is maintained as a
 documentation-first public framework.
 
-Current source version: **0.2.4**
+Current source version: **0.2.5**
 
 Latest published GitHub Release: **v0.2.3**
 
