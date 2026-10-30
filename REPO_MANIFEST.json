@@ -5,7 +5,7 @@
   "version": "0.2.4",
   "release_date": "{{RELEASE_DATE}}",
   "methodology_scope": "documentation-first; no automated assessment engine or workbook decision calculator",
-  "controlled_file_count": 96,
+  "controlled_file_count": 101,
   "integrity_note": "REPO_MANIFEST.json and SHA256SUMS are excluded from controlled files. SHA256SUMS includes REPO_MANIFEST.json but excludes itself.",
   "files": [
     {
@@ -49,9 +49,14 @@
       "sha256": "375d28fd25ef30a1925ff450c14a83ad84669042dcbc8c70305e7ceafb1cf15e"
     },
     {
+      "path": ".github/workflows/docs-link-check.yml",
+      "bytes": 973,
+      "sha256": "0742e0c866ad7ef6975ce6545d47e30651431a59681c878a9bface699ff5662a"
+    },
+    {
       "path": ".github/workflows/methodology-integrity.yml",
-      "bytes": 2539,
-      "sha256": "31f4c27522d8c167f927379e50b725b2df35c944264f8a160a9ab7817c01183d"
+      "bytes": 2588,
+      "sha256": "28fb94053d3d0a03b36afed77f7e26c882e41ec8af515db9b2cde9ab87a64a26"
     },
     {
       "path": ".github/workflows/privacy-preflight.yml",
@@ -59,9 +64,24 @@
       "sha256": "916f0681cf7197cf57ff1dd7fa2e6b81b4d42dc492940f9eb0fe6ec6205047e4"
     },
     {
+      "path": ".github/workflows/release-please.yml",
+      "bytes": 578,
+      "sha256": "69881290dccdd3881a09cc351e01322190f5f2b76ffe85668172749fee313bba"
+    },
+    {
+      "path": ".github/workflows/version-consistency.yml",
+      "bytes": 1553,
+      "sha256": "6eedff1f448c5f6c311184d5041f02bfe6f82a0fe2dace9824d87df937d7cb5f"
+    },
+    {
       "path": ".gitignore",
       "bytes": 134,
       "sha256": "fff82464ea2f3cf10856d4c5de91f4614b663af4d5c094bbc0b58677bd939e01"
+    },
+    {
+      "path": ".release-please-manifest.json",
+      "bytes": 19,
+      "sha256": "1216761ab673fd4be60bd016e6ed772b4e6d2a459e71c77a0d7195b5cedc7b63"
     },
     {
       "path": "CHANGELOG.md",
@@ -377,6 +397,11 @@
       "path": "frameworks/pqc-migration-roadmap.md",
       "bytes": 1724,
       "sha256": "76aba87e56095966a930a07f50e014be78dfdb7c5a1e0ccccea2ef8c6066573a"
+    },
+    {
+      "path": "release-please-config.json",
+      "bytes": 1220,
+      "sha256": "8f00460783afd2148b69e001711a39d08253bba7bcea8cc4daed4ae9009be8bb"
     },
     {
       "path": "release/changed-files-allowlist.txt",
