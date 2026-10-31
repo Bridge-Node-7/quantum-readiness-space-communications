@@ -56,16 +56,18 @@ class MethodologyIntegrityTests(unittest.TestCase):
 
     def test_release_status_is_explicit(self):
         text = self.read("release/release-status.md")
-        self.assertIn("Current source version: **0.2.5**", text)
+        version = self.read("VERSION").strip()
+        self.assertIn(f"Current source version: **{version}**", text)
         self.assertIn("Latest published GitHub Release: **v0.2.3**", text)
         self.assertIn("not represented as a published release", text)
 
     def test_release_metadata(self):
         metadata = json.loads(self.read("release/release-metadata.json"))
         self.assertEqual("quantum-readiness-space-communications", metadata["name"])
-        self.assertEqual("0.2.5", metadata["version"])
+        version = self.read("VERSION").strip()
+        self.assertEqual(version, metadata["version"])
         self.assertEqual("{{RELEASE_DATE}}", metadata["release_date"])
-        self.assertEqual("0.2.5", self.read("VERSION").strip())
+        self.assertRegex(self.read("VERSION").strip(), r"^\d+\.\d+\.\d+$")
         self.assertEqual("Quantum Readiness Decision Pack", metadata["decision_pack_name"])
 
     def test_current_federal_pqc_policy_context(self):
@@ -80,11 +82,13 @@ class MethodologyIntegrityTests(unittest.TestCase):
     def test_current_source_is_not_presented_as_formally_released(self):
         status = self.read("release/release-status.md")
         self.assertIn("Latest published GitHub Release: **v0.2.3**", status)
-        self.assertIn("Source version 0.2.5 is not represented as a published release", status)
+        version = self.read("VERSION").strip()
+        self.assertIn(f"Source version {version} is not represented as a published release", status)
         changelog = self.read("CHANGELOG.md")
+        version = self.read("VERSION").strip()
         self.assertTrue(
-            "0.2.5 - Unreleased source" in changelog or "## [0.2.5]" in changelog,
-            "CHANGELOG.md must record current source 0.2.5",
+            f"{version} - Unreleased source" in changelog or f"## [{version}]" in changelog,
+            f"CHANGELOG.md must record current source {version}",
         )
 
 if __name__ == "__main__":

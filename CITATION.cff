@@ -3,7 +3,7 @@ message: >-
   For formal releases, cite the exact tagged release; for unreleased source,
   cite the exact commit.
 title: Quantum Readiness for Space Communications
-version: 0.2.5
+version: 0.2.6
 type: software
 abstract: >-
   Documentation-first, publicly distributable assessment and migration-planning

@@ -3,11 +3,11 @@
 Quantum Readiness for Space Communications is maintained as a
 documentation-first public framework.
 
-Current source version: **0.2.5**
+Current source version: **0.2.6**
 
 Latest published GitHub Release: **v0.2.3**
 
-Source version 0.2.5 is not represented as a published release until the
+Source version 0.2.6 is not represented as a published release until the
 corresponding tag and GitHub Release exist.
 
 Published releases preserve explicit identity, source traceability,
