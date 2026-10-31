@@ -121,18 +121,20 @@ Use the [Role-Based Reading Paths](docs/role-based-reading-paths.md) for a short
 
 Git Bash or another Bash environment:
 
+Prefer `python3` (3.11+). A virtualenv may sit beside or inside the clone; validators ignore `.venv` and similar cache dirs.
+
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements-validation.txt
+python3 -m venv ../qrsc-venv
+source ../qrsc-venv/bin/activate
+python3 -m pip install -r requirements-validation.txt
 bash scripts/validate.sh
 ```
 
 Windows PowerShell:
 
 ```powershell
-py -3 -m venv .venv
-.\.venv\Scripts\Activate.ps1
+py -3 -m venv ..\qrsc-venv
+..\qrsc-venv\Scripts\Activate.ps1
 python -m pip install -r requirements-validation.txt
 powershell -ExecutionPolicy Bypass -File scripts/validate.ps1
 ```
