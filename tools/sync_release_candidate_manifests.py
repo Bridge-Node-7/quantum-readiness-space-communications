@@ -62,6 +62,12 @@ def main() -> int:
             print("PASS: RELEASE_REVIEW.md")
         st = (root / "release/release-status.md").read_text(encoding="utf-8")
         st2 = re.sub(rf"(Current source version:\s+\*\*){re.escape(prev)}(\*\*)", rf"\g<1>{version}\2", st, count=1)
+        st2 = re.sub(
+            rf"(Source version ){re.escape(prev)}( is not represented as a published release)",
+            rf"\g<1>{version}\2",
+            st2,
+            count=1,
+        )
         if st2 != st:
             (root / "release/release-status.md").write_text(st2, encoding="utf-8", newline="\n")
             print("PASS: release-status.md")

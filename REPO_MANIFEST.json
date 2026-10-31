@@ -421,7 +421,7 @@
     {
       "path": "release/release-status.md",
       "bytes": 572,
-      "sha256": "03f92c3ddca23c7f22143a6cd4f8fe53874a47f81f92015cd4069c38f92f16b5"
+      "sha256": "52bbf088acf7f5e512e80236b78be95d817d2f467580a7d9b55a8c43c5909c9e"
     },
     {
       "path": "release/repository-metadata.json",
@@ -450,8 +450,8 @@
     },
     {
       "path": "tests/test_methodology.py",
-      "bytes": 4528,
-      "sha256": "e9d1e54cb8d77a6ef01ad555e96b59bd41899dfa99770b98924f854ca233df1e"
+      "bytes": 4752,
+      "sha256": "f2a9c3f44dacde5205edeeb0984a1170c712d26f2b42f067edcec39fa4d08c30"
     },
     {
       "path": "tests/test_public_boundary.py",
@@ -510,8 +510,8 @@
     },
     {
       "path": "tools/sync_release_candidate_manifests.py",
-      "bytes": 4503,
-      "sha256": "16a6aa4225a52014e3208169f2683274d70df0dd7f583d74c69e2d0a6150ace8"
+      "bytes": 4703,
+      "sha256": "fb16408f51dd7639e9594916c78ead84425bc7d0d581120ff870250bd6597486"
     },
     {
       "path": "tools/validate_repo.py",
