@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.2.6](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/compare/v0.2.5...v0.2.6) (2026-10-31)
+
+
+### Bug Fixes
+
+* **release:** set version-file to VERSION ([#49](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/49)) ([513c5e2](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/513c5e2fb114a9c9e273470a009c317a9ec003ea))
+* **release:** use generic extra-file type for VERSION ([#47](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/47)) ([5f8f35a](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/5f8f35aff933176d87703b9796ba446e2d2131aa))
+
+
+### Documentation
+
+* partner-ready front door and coverage summary ([#50](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/50)) ([cd3a109](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/cd3a1093454415fe047ff826185df783994ca74b))
+* prefer python3 and out-of-tree validation venv ([#51](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/51)) ([a7a39a7](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/a7a39a7ca4be06b4ad65146e03024d81c9704eef))
+
 ## 0.2.5 - Unreleased source
 
 
