@@ -1,24 +1,16 @@
-## Purpose
+## Summary
 
-Describe the objective and the exact files changed.
+Describe the change using public or synthetic information only.
 
-## Methodology impact
+## Methodology
 
-- [ ] No methodology change
-- [ ] Non-breaking methodology clarification
-- [ ] Breaking methodology change documented in `METHODOLOGY_CHANGELOG.md`
-
-## Required invariants
-
-- [ ] No weighted aggregate readiness score introduced
-- [ ] Exposure and readiness remain separately oriented
-- [ ] Evidence confidence remains separate
-- [ ] Critical overrides remain non-compensatory
-- [ ] No certification or authorization claim introduced
-- [ ] Publicly distributable information only
+- [ ] Readiness, exposure, and evidence confidence remain separate
+- [ ] Critical overrides remain non-compensatory; no aggregate readiness score
+- [ ] No certification or authorization claim
+- [ ] Breaking changes are recorded in `METHODOLOGY_CHANGELOG.md`
 
 ## Validation
 
 - [ ] `bash scripts/validate.sh`
-- [ ] Changed files are within the release allowlist or the allowlist is intentionally updated
-- [ ] Standards status and links were checked when affected
+- [ ] Changed files are allowlisted; affected standards references are current
+- [ ] No protected data, secrets, or nonpublic context
