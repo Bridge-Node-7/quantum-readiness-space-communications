@@ -36,7 +36,7 @@
     {
       "path": ".github/dependabot.yml",
       "bytes": 505,
-      "sha256": "b1952d5c7d72868ca11808ae4222b48d876719d3febb81426223b08ddd0ead13"
+      "sha256": "cb39f638d9d679d58b1dea6170f675e8240703af2fef28ac847dc025e1ca4e13"
     },
     {
       "path": ".github/pull_request_template.md",
