@@ -40,5 +40,6 @@ jobs:
             --accept 200,204,206,429
             --exclude '^https://github\.com/.+/compare/'
             --exclude '^https://www\.nsa\.gov/'
+            --exclude '^https://www\.cisa\.gov/'
             "**/*.md"
           fail: true

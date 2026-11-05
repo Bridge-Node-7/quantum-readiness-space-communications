@@ -50,8 +50,8 @@
     },
     {
       "path": ".github/workflows/docs-link-check.yml",
-      "bytes": 1030,
-      "sha256": "3e60e76f5b96a28b5712c5b17410c8ac8f3aecbb01b0ffab6b106b7e7ef1ef44"
+      "bytes": 1079,
+      "sha256": "f227d0d3d741016d1785cea6ce893d4e5ea9e7e6aa7732ec7110bbff0179f1e6"
     },
     {
       "path": ".github/workflows/methodology-integrity.yml",
@@ -135,8 +135,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10447,
-      "sha256": "6d7475a33928f21698f28f31fb7a6cc455dd6a138aa65bf36e306d9f74b35fcd"
+      "bytes": 10360,
+      "sha256": "67e87dfee100b24009e5ccaded7e6ec8f13153f8eb121539c1e4816324c8f922"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -400,8 +400,8 @@
     },
     {
       "path": "release-please-config.json",
-      "bytes": 1253,
-      "sha256": "f93c97cd61a1ce7eab9df1e79cb6ce62b82c1219b8bb507ed2b95cf8b8dd8802"
+      "bytes": 1444,
+      "sha256": "256b48a60e2232d35f5d1622ece2be4de5f51cabd2c31805b2a939f3b0fa33c2"
     },
     {
       "path": "release/changed-files-allowlist.txt",
