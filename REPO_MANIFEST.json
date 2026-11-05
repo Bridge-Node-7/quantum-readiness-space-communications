@@ -40,8 +40,8 @@
     },
     {
       "path": ".github/pull_request_template.md",
-      "bytes": 771,
-      "sha256": "4bed28f716a9c2c2a9817fce7d716618f46e96fa8bbac865495d7bdf0715bbc2"
+      "bytes": 534,
+      "sha256": "3b042ebf032c60666555a85ead082cff7b95ac9dae28947f9f0576ef43f5bc1c"
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -65,8 +65,8 @@
     },
     {
       "path": ".github/workflows/release-please.yml",
-      "bytes": 2924,
-      "sha256": "3ccdfe84f28fd372e26bfb10bf56edfbca9d98b583d100bda5f349701bacb2c8"
+      "bytes": 3268,
+      "sha256": "7e7468c293674f17011f97969607eba2e100525be938888c5c1d351d3414de3f"
     },
     {
       "path": ".github/workflows/version-consistency.yml",
@@ -400,8 +400,8 @@
     },
     {
       "path": "release-please-config.json",
-      "bytes": 1444,
-      "sha256": "256b48a60e2232d35f5d1622ece2be4de5f51cabd2c31805b2a939f3b0fa33c2"
+      "bytes": 1641,
+      "sha256": "a123d81140c89ef7e029bc0a966d1577b4485067c0fa9df4ae5ad54e0b2d86fe"
     },
     {
       "path": "release/changed-files-allowlist.txt",
