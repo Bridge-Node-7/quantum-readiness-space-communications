@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.7](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/compare/v0.2.6...v0.2.7) (2026-11-06)
+
+
+### Miscellaneous
+
+* simplify contribution forms and automation ([9024d61](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/9024d61410bdc35f3b25d6d606a328db6fcd0ca6))
+
 ## [0.2.6] (2026-10-31)
 
 
