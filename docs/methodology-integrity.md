@@ -12,5 +12,5 @@ A valid repository revision must preserve all of these invariants:
 8. Decision-support labels are explicitly non-authoritative.
 9. Legacy version 0.1.5 scoring files point to the replacements.
 10. Public claim boundaries prohibit certification and authorization claims.
-11. No assessment engine or workbook decision calculator is included in version 0.2.0.
+11. This public framework does not include an assessment engine or workbook decision calculator.
 12. Every public release includes integrity validation and a current status record.
