@@ -5,10 +5,10 @@ documentation-first public framework.
 
 Current source version: **0.2.6**
 
-Latest published GitHub Release: **v0.2.3**
-
-Source version 0.2.6 is not represented as a published release until the
-corresponding tag and GitHub Release exist.
+Published distribution identity is recorded on
+[GitHub Releases](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/latest).
+A source version is a published release only when its matching tag and GitHub
+Release exist.
 
 Published releases preserve explicit identity, source traceability,
 deterministic packaging, reproducible validation, methodology limits, and known

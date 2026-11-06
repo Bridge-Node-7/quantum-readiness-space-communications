@@ -2,7 +2,7 @@
 
 ## Source summary
 
-Version 0.2.6 is an unreleased validation-hygiene source update over formal release v0.2.3.
+Version 0.2.6 is a validation-hygiene update over v0.2.3.
 
 It:
 

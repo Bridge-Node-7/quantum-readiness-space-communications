@@ -2,7 +2,7 @@
 
 ## Current boundary
 
-The reviewed source version is `0.2.4`, while the latest published GitHub Release is `v0.2.3`. This is explicitly identified as unreleased source. Do not equate an ahead-of-release `VERSION` file with a requirement to publish immediately.
+`VERSION` identifies reviewed source; [GitHub Releases](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/latest) record published distribution identity. A source version ahead of the latest release is not published until its tag and GitHub Release exist, and does not by itself require immediate publication.
 
 This repository's existing release process requires human review, deterministic package generation, an integrity manifest, checksums, and traceable assets. Do not replace that process with a bare tag and empty GitHub Release.
 
@@ -18,7 +18,7 @@ This gate deliberately blocks a release-please version PR if it changes only `VE
 2. Preserve explicit human approval and the existing release-artifact contract.
 3. Convert hard-coded version checks and package defaults to controlled, version-derived values, with regression tests.
 4. Account for the release-specific notes, review record, status document, release metadata, repository manifest, and checksums. A generated release PR must include every required update or be rejected by CI.
-5. Establish a tested baseline between published `v0.2.3` and unreleased source `0.2.4`; do not silently jump versions or rewrite old releases.
+5. Establish a tested baseline between the latest published release and current source; do not silently jump versions or rewrite old releases.
 6. Verify that bot-generated pull requests run required CI and that the chosen authentication and event chain work as designed.
 7. Validate a draft release candidate and compare resulting assets to the previous release contract before permitting automatic publication.
 
