@@ -65,8 +65,8 @@
     },
     {
       "path": ".github/workflows/release-please.yml",
-      "bytes": 3268,
-      "sha256": "7e7468c293674f17011f97969607eba2e100525be938888c5c1d351d3414de3f"
+      "bytes": 3267,
+      "sha256": "dc1b57be9e6c1c201eeb748057305abb992363373d3c980ed9591a0ce335dd0a"
     },
     {
       "path": ".github/workflows/version-consistency.yml",
