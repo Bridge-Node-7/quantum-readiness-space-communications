@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "repository": "Bridge-Node-7/quantum-readiness-space-communications",
   "title": "Quantum Readiness for Space Communications",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "release_date": "{{RELEASE_DATE}}",
   "methodology_scope": "documentation-first; no automated assessment engine or workbook decision calculator",
   "controlled_file_count": 102,
@@ -81,17 +81,17 @@
     {
       "path": ".release-please-manifest.json",
       "bytes": 19,
-      "sha256": "0356560a66fc9a87cf8da7560f7a17a582679b4545b84bacc4b8f7a57c1d399b"
+      "sha256": "79bcaf8430bb94b033efb017a8166aa951748537f2f816538fdc3999adabda36"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 12331,
-      "sha256": "e30d4a42da339713da9b950bff172584afa34f22f44096743638a6e35cba3a42"
+      "bytes": 12555,
+      "sha256": "1965e5bcebf35c6567222c3688f1f3c461920ca1b24f52aaa8a149d3f7e4a1f1"
     },
     {
       "path": "CITATION.cff",
       "bytes": 788,
-      "sha256": "aba207e79b564746e7fad0854b3d82d66091e45980beedac6536e0dbda918576"
+      "sha256": "6d4a3d8d39aacce5f92a046b88eb6bd69b1482df7fe6f801cb2179fe608f51b7"
     },
     {
       "path": "CODE_OF_CONDUCT.md",
@@ -141,12 +141,12 @@
     {
       "path": "RELEASE_NOTES.md",
       "bytes": 1215,
-      "sha256": "82221df744f5b78be0779c0fa883560f7471545f97fb23c6632a807c6cacd53a"
+      "sha256": "ca1dc2de9c7922465590faad8e6ace6894b93eb1943f63775e968f84328a65c5"
     },
     {
       "path": "RELEASE_REVIEW.md",
       "bytes": 1045,
-      "sha256": "c69973e1e1b1daed7774b63a32fcca29812ef14439b5914d704b48d124d021db"
+      "sha256": "8a72ae5491738847241f54462e3123a2083c54e9890009ecd6767c77ef523da3"
     },
     {
       "path": "SECURITY.md",
@@ -156,7 +156,7 @@
     {
       "path": "VERSION",
       "bytes": 6,
-      "sha256": "be3c6d2c6c406a64d44f0b6464a887e290416dd90c524094485b1be00936d6d7"
+      "sha256": "5b57e3b8c153d1d33b0c0f1ee29d3de1bf93232ed95aa78b80fe885e99faa915"
     },
     {
       "path": "assessment/critical-risk-overrides.md",
@@ -416,12 +416,12 @@
     {
       "path": "release/release-metadata.json",
       "bytes": 436,
-      "sha256": "ef5c3b456ce7857a1e3138ebad6e3ef0148a484122a707337cfd8c1af6f114e0"
+      "sha256": "6ec7ff6e68bc5548f170a3a5b4569d6d41bb9bc121493d3726b1d77b6d497c5b"
     },
     {
       "path": "release/release-status.md",
       "bytes": 658,
-      "sha256": "890b1e86209254880876c7ecce898cd303c1b9fb53e737c7741d1798b970c57a"
+      "sha256": "cd8de82e97b0bb5ad1f70d593c175d331e8abd23266b487497b4e69f3998fbf6"
     },
     {
       "path": "release/repository-metadata.json",
@@ -476,7 +476,7 @@
     {
       "path": "tools/build_release.py",
       "bytes": 1797,
-      "sha256": "f397f632c61a6c01264570f4324623c47d9e8b24442f2e719b6e6c4286115355"
+      "sha256": "36cf94038a2b481433b423d7af89e8a092509a4f4e40ccb7a9b4a725c9a9b6eb"
     },
     {
       "path": "tools/check_external_links.py",
@@ -516,7 +516,7 @@
     {
       "path": "tools/validate_repo.py",
       "bytes": 26470,
-      "sha256": "ab8571572c2931fb48e7b0ffac2017290d8511450453aff591221ac35b813927"
+      "sha256": "bbf254badefe8e03a637fbd0ce85dec6241035447ae45168056cd90e95a185ce"
     }
   ]
 }
