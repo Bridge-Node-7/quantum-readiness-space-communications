@@ -2,7 +2,7 @@
 
 **Version:** 0.2.6
 
-This unreleased source version preserves the documentation-first Quantum Readiness framework and its public claim boundaries while improving repository validation.
+This version preserves the documentation-first Quantum Readiness framework and its public claim boundaries while improving repository validation.
 
 ## Source validation
 

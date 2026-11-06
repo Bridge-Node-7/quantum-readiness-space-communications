@@ -58,8 +58,8 @@ class MethodologyIntegrityTests(unittest.TestCase):
         text = self.read("release/release-status.md")
         version = self.read("VERSION").strip()
         self.assertIn(f"Current source version: **{version}**", text)
-        self.assertIn("Latest published GitHub Release: **v0.2.3**", text)
-        self.assertIn("not represented as a published release", text)
+        self.assertIn("releases/latest", text)
+        self.assertIn("published release only when its matching tag and GitHub", text)
 
     def test_release_metadata(self):
         metadata = json.loads(self.read("release/release-metadata.json"))
@@ -79,11 +79,10 @@ class MethodologyIntegrityTests(unittest.TestCase):
         self.assertIn("not an automatic compliance determination", readme)
         self.assertIn("does not apply to National Security Systems", readme)
 
-    def test_current_source_is_not_presented_as_formally_released(self):
+    def test_release_identity_is_deferred_to_github_releases(self):
         status = self.read("release/release-status.md")
-        self.assertIn("Latest published GitHub Release: **v0.2.3**", status)
-        version = self.read("VERSION").strip()
-        self.assertIn(f"Source version {version} is not represented as a published release", status)
+        self.assertNotIn("Latest published GitHub Release: **", status)
+        self.assertIn("GitHub Releases", status)
         changelog = self.read("CHANGELOG.md")
         version = self.read("VERSION").strip()
         self.assertTrue(

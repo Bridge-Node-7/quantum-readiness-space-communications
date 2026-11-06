@@ -140,13 +140,13 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1249,
-      "sha256": "ae59efc8f975424893a1f7151d90fe6f082a88f19ca4c9828e430ee0d18df0c2"
+      "bytes": 1215,
+      "sha256": "82221df744f5b78be0779c0fa883560f7471545f97fb23c6632a807c6cacd53a"
     },
     {
       "path": "RELEASE_REVIEW.md",
-      "bytes": 1063,
-      "sha256": "9a0e4c545b532d25671018beb5d4bc479352453d3d30201ac34ef54158da2bc9"
+      "bytes": 1045,
+      "sha256": "c69973e1e1b1daed7774b63a32fcca29812ef14439b5914d704b48d124d021db"
     },
     {
       "path": "SECURITY.md",
@@ -315,8 +315,8 @@
     },
     {
       "path": "docs/release-automation-readiness.md",
-      "bytes": 2440,
-      "sha256": "059da0746cb185589fb954107d85f26cd1ad93b79c62feb6f6438c0ac0080bea"
+      "bytes": 2541,
+      "sha256": "eaf158ad15afd5757febd84e26ae86baf39aba28ee5261c8061840cdecfb8730"
     },
     {
       "path": "docs/role-based-reading-paths.md",
@@ -420,8 +420,8 @@
     },
     {
       "path": "release/release-status.md",
-      "bytes": 572,
-      "sha256": "52bbf088acf7f5e512e80236b78be95d817d2f467580a7d9b55a8c43c5909c9e"
+      "bytes": 658,
+      "sha256": "890b1e86209254880876c7ecce898cd303c1b9fb53e737c7741d1798b970c57a"
     },
     {
       "path": "release/repository-metadata.json",
@@ -450,8 +450,8 @@
     },
     {
       "path": "tests/test_methodology.py",
-      "bytes": 4752,
-      "sha256": "f2a9c3f44dacde5205edeeb0984a1170c712d26f2b42f067edcec39fa4d08c30"
+      "bytes": 4632,
+      "sha256": "0a9b1d34ef9326598a86903aaf3dc9bf7e351557247f0a8ba941e67fc8ca2fe6"
     },
     {
       "path": "tests/test_public_boundary.py",
