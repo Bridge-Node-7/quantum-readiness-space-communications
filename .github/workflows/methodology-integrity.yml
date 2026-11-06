@@ -78,11 +78,10 @@ jobs:
             build/coverage-report.txt
             build/coverage.xml
           if-no-files-found: ignore
-          retention-days: 14
+          retention-days: 7
 
   windows-validation:
     name: windows-validation
-    if: github.event_name == 'workflow_dispatch'
     runs-on: windows-2022
     timeout-minutes: 15
     steps:

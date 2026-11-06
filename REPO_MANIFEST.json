@@ -45,23 +45,23 @@
     },
     {
       "path": ".github/workflows/codeql.yml",
-      "bytes": 693,
-      "sha256": "375d28fd25ef30a1925ff450c14a83ad84669042dcbc8c70305e7ceafb1cf15e"
+      "bytes": 831,
+      "sha256": "3b3a33d3174fcb0258ed234d9c5b575371470d0ed002e6afddce1eb8aac0bcfd"
     },
     {
       "path": ".github/workflows/docs-link-check.yml",
       "bytes": 1079,
-      "sha256": "f227d0d3d741016d1785cea6ce893d4e5ea9e7e6aa7732ec7110bbff0179f1e6"
+      "sha256": "ded4af5efaed6c5f8d979e472c43305d280e5842aa8876f5debee2bb6db002c8"
     },
     {
       "path": ".github/workflows/methodology-integrity.yml",
-      "bytes": 3624,
-      "sha256": "8ef83ab74c590ad28a63394e74251208b75159bfb67599dc73e6b69af5ad94e1"
+      "bytes": 3574,
+      "sha256": "117e55ba83963ca1bf0446504cba9ef334f9568fd33fa1808fccaffce95777c2"
     },
     {
       "path": ".github/workflows/privacy-preflight.yml",
-      "bytes": 439,
-      "sha256": "916f0681cf7197cf57ff1dd7fa2e6b81b4d42dc492940f9eb0fe6ec6205047e4"
+      "bytes": 577,
+      "sha256": "30012e70cf14d39b881182850ce498a8a753a5cadb9fe404f1d6f21991dcca73"
     },
     {
       "path": ".github/workflows/release-please.yml",
@@ -315,8 +315,8 @@
     },
     {
       "path": "docs/release-automation-readiness.md",
-      "bytes": 2541,
-      "sha256": "eaf158ad15afd5757febd84e26ae86baf39aba28ee5261c8061840cdecfb8730"
+      "bytes": 622,
+      "sha256": "92781b7015ba5ca46484a43ddf9d0e989ccc952ae707a16b2635dcaacdfa0a68"
     },
     {
       "path": "docs/role-based-reading-paths.md",
