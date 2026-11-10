@@ -1,6 +1,6 @@
 # Standards and Guidance Register
 
-**Last verified:** 2026-09-21
+Each entry is checked against its linked official source. Dates are the official publication dates.
 
 | Authority | Identifier | Title | Status and date | Relevance | Applicability note | Official source |
 |---|---|---|---|---|---|---|

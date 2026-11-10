@@ -330,8 +330,8 @@
     },
     {
       "path": "docs/standards-register.md",
-      "bytes": 4867,
-      "sha256": "fa34fb4d535994789a56c5493066eddce8d4b340a4e6f3e183214bf01fab1482"
+      "bytes": 4937,
+      "sha256": "f51321696d7547c747e4f0b9167b8d0cd398747832ec13fde756ac8d90928366"
     },
     {
       "path": "examples/sample-small-satellite-decision-pack/01-scope-and-link-map.md",
