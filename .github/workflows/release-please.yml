@@ -38,6 +38,7 @@ jobs:
         with:
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+          skip-github-release: true
 
       - name: Sync release-candidate manifests on open release PR
         if: ${{ steps.release.outputs.pr != '' }}
@@ -83,3 +84,139 @@ jobs:
           git -c "user.name=${GIT_NAME}" -c "user.email=${GIT_MAIL_LOCAL}@${GIT_MAIL_DOMAIN}" commit -m "chore: align VERSION/CHANGELOG and refresh manifests for release candidate"
           git push origin "HEAD:${BRANCH}"
           echo "PASS refreshed manifests on ${BRANCH}"
+
+  # Publication builds, checksums and attests the release package before the
+  # release becomes immutable, then verifies the hosted result.
+  publish:
+    name: Publish packaged release
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      id-token: write
+      attestations: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_COMMIT: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+
+      - name: Resolve release identity
+        id: identity
+        run: |
+          set -euo pipefail
+          VERSION="$(tr -d '\r\n' < VERSION)"
+          TAG="v${VERSION}"
+          test "${VERSION}" = "$(jq -r '."."' .release-please-manifest.json)"
+          publish=false
+          if gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${TAG}" >/dev/null 2>&1; then
+            echo "${TAG} already published."
+          elif git diff --name-only "${RELEASE_COMMIT}^" "${RELEASE_COMMIT}" | grep -qx '.release-please-manifest.json'; then
+            publish=true
+          else
+            echo "No version change in ${RELEASE_COMMIT}."
+          fi
+          {
+            echo "publish=${publish}"
+            echo "version=${VERSION}"
+            echo "tag=${TAG}"
+            echo "archive=quantum-readiness-space-communications-${TAG}.zip"
+          } >> "${GITHUB_OUTPUT}"
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        if: steps.identity.outputs.publish == 'true'
+        with:
+          python-version: '3.12'
+
+      - name: Validate release commit
+        if: steps.identity.outputs.publish == 'true'
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check -r requirements-validation.txt
+          python tools/check_version_consistency.py
+          bash scripts/validate.sh
+          git diff --exit-code
+
+      - name: Build release package
+        if: steps.identity.outputs.publish == 'true'
+        env:
+          VERSION: ${{ steps.identity.outputs.version }}
+          TAG: ${{ steps.identity.outputs.tag }}
+          ARCHIVE: ${{ steps.identity.outputs.archive }}
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          git archive --format=zip --prefix="quantum-readiness-space-communications-${TAG}/" "${RELEASE_COMMIT}" -o "dist/${ARCHIVE}"
+          (cd dist && sha256sum "${ARCHIVE}" > "${ARCHIVE}.sha256" && sha256sum --check "${ARCHIVE}.sha256")
+          awk -v v="${VERSION}" '
+            $0 ~ "^## \\[?" v "\\]?([ (]|$)" { found=1; next }
+            found && /^## / { exit }
+            found { print }
+          ' CHANGELOG.md > dist/release-notes.md
+          test -s dist/release-notes.md
+
+      - name: Attest release package
+        if: steps.identity.outputs.publish == 'true'
+        uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6 # v4.2.2
+        with:
+          subject-path: |
+            dist/${{ steps.identity.outputs.archive }}
+            dist/${{ steps.identity.outputs.archive }}.sha256
+
+      - name: Create annotated tag and publish release
+        if: steps.identity.outputs.publish == 'true'
+        env:
+          TAG: ${{ steps.identity.outputs.tag }}
+          ARCHIVE: ${{ steps.identity.outputs.archive }}
+        run: |
+          set -euo pipefail
+          test "$(gh api "repos/${GITHUB_REPOSITORY}/immutable-releases" --jq '.enabled')" = "true"
+          test "$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/main" --jq '.object.sha')" = "${RELEASE_COMMIT}"
+          TAG_OBJECT_SHA="$(gh api --method POST "repos/${GITHUB_REPOSITORY}/git/tags" \
+            -f tag="${TAG}" \
+            -f message="Quantum Readiness Space Communications ${TAG}" \
+            -f object="${RELEASE_COMMIT}" \
+            -f type="commit" \
+            --jq '.sha')"
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/git/refs" \
+            -f ref="refs/tags/${TAG}" \
+            -f sha="${TAG_OBJECT_SHA}" >/dev/null
+          test "$(gh api "repos/${GITHUB_REPOSITORY}/git/tags/${TAG_OBJECT_SHA}" --jq '.object.sha')" = "${RELEASE_COMMIT}"
+          gh release create "${TAG}" \
+            "dist/${ARCHIVE}" \
+            "dist/${ARCHIVE}.sha256" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --verify-tag \
+            --latest \
+            --title "Quantum Readiness Space Communications ${TAG}" \
+            --notes-file dist/release-notes.md
+
+      - name: Verify hosted release
+        if: steps.identity.outputs.publish == 'true'
+        env:
+          TAG: ${{ steps.identity.outputs.tag }}
+          ARCHIVE: ${{ steps.identity.outputs.archive }}
+        run: |
+          set -euo pipefail
+          mkdir -p hosted
+          cd hosted
+          gh release download "${TAG}" --repo "${GITHUB_REPOSITORY}" --pattern "${ARCHIVE}*"
+          sha256sum --check "${ARCHIVE}.sha256"
+          immutable=false
+          for _ in $(seq 1 30); do
+            immutable="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${TAG}" --jq '.immutable')"
+            [ "${immutable}" = "true" ] && break
+            sleep 2
+          done
+          test "${immutable}" = "true"
+          verified=false
+          for _ in $(seq 1 6); do
+            if gh release verify "${TAG}" --repo "${GITHUB_REPOSITORY}"; then verified=true; break; fi
+            sleep 5
+          done
+          test "${verified}" = "true"
+          gh release verify-asset "${TAG}" "${ARCHIVE}" --repo "${GITHUB_REPOSITORY}"
+          gh attestation verify "${ARCHIVE}" --repo "${GITHUB_REPOSITORY}"
