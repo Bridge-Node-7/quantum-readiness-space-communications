@@ -113,6 +113,10 @@ class ReleaseToolTests(unittest.TestCase):
         self.assertIn("Existing release ${TAG} is incomplete", workflow)
         self.assertIn('EXPECTED=("${ARCHIVE}" "${ARCHIVE}.sha256")', workflow)
         self.assertIn("releases/tags/${TAG}", workflow)
+        self.assertIn("release-please may prepare a corrective patch", workflow)
+        archive_index = workflow.index('ARCHIVE="quantum-readiness-space-communications-${TAG}.zip"')
+        existing_tag_index = workflow.index('if gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${TAG}"')
+        self.assertLess(archive_index, existing_tag_index)
 
     def _manifest_fixture(self, root: Path) -> Path:
         (root / "tools").mkdir(parents=True, exist_ok=True)

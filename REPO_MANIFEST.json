@@ -460,8 +460,8 @@
     },
     {
       "path": "tests/test_release_tools.py",
-      "bytes": 8033,
-      "sha256": "71b9a9e271eafafef637c15154f7c42fe7583e8358258e77d2faf385e440a641"
+      "bytes": 8381,
+      "sha256": "e33f57c6b3216d841c757e78dfc730c6063e04da640f30cf623302223c3281c2"
     },
     {
       "path": "tests/test_validator_mutations.py",
