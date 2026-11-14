@@ -108,6 +108,12 @@ class ReleaseToolTests(unittest.TestCase):
             finally:
                 output.unlink(missing_ok=True)
 
+    def test_release_workflow_rejects_incomplete_existing_release(self):
+        workflow = (Path(__file__).parents[1] / ".github/workflows/release-please.yml").read_text(encoding="utf-8")
+        self.assertIn("Existing release ${TAG} is incomplete", workflow)
+        self.assertIn('EXPECTED=("${ARCHIVE}" "${ARCHIVE}.sha256")', workflow)
+        self.assertIn("releases/tags/${TAG}", workflow)
+
     def _manifest_fixture(self, root: Path) -> Path:
         (root / "tools").mkdir(parents=True, exist_ok=True)
         generator = root / "tools/generate_manifest.py"

@@ -113,7 +113,20 @@ jobs:
           test "${VERSION}" = "$(jq -r '."."' .release-please-manifest.json)"
           publish=false
           if gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${TAG}" >/dev/null 2>&1; then
-            echo "${TAG} already published."
+            if ! gh release view "${TAG}" --repo "${GITHUB_REPOSITORY}" >/dev/null 2>&1; then
+              echo "::error::Tag ${TAG} exists without a GitHub Release."
+              exit 1
+            fi
+            mapfile -t ASSETS < <(
+              gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${TAG}" --jq '.assets[].name' | LC_ALL=C sort
+            )
+            EXPECTED=("${ARCHIVE}" "${ARCHIVE}.sha256")
+            mapfile -t EXPECTED_SORTED < <(printf '%s\n' "${EXPECTED[@]}" | LC_ALL=C sort)
+            if ! diff -u <(printf '%s\n' "${EXPECTED_SORTED[@]}") <(printf '%s\n' "${ASSETS[@]}"); then
+              echo "::error::Existing release ${TAG} is incomplete; required stable-release assets are missing or unexpected."
+              exit 1
+            fi
+            echo "${TAG} already published with complete assets."
           elif git diff --name-only "${RELEASE_COMMIT}^" "${RELEASE_COMMIT}" | grep -qx '.release-please-manifest.json'; then
             publish=true
           else
