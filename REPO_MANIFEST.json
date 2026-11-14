@@ -65,8 +65,8 @@
     },
     {
       "path": ".github/workflows/release-please.yml",
-      "bytes": 9765,
-      "sha256": "0a54549cf34dac9f94ebe82656e66f27aca4ef28766a6360cbab6ce40ac080f9"
+      "bytes": 10561,
+      "sha256": "275461235db1cf1db6b3467c4409a6e4a20cdfda0be10ad932bac362853ec09a"
     },
     {
       "path": ".github/workflows/version-consistency.yml",
@@ -460,8 +460,8 @@
     },
     {
       "path": "tests/test_release_tools.py",
-      "bytes": 7636,
-      "sha256": "b69cabd8468c6b604d4fad451233864eed9655a9188ed1aadd9ac12d713436f0"
+      "bytes": 8033,
+      "sha256": "71b9a9e271eafafef637c15154f7c42fe7583e8358258e77d2faf385e440a641"
     },
     {
       "path": "tests/test_validator_mutations.py",
