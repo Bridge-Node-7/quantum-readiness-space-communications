@@ -1,5 +1,50 @@
 # Changelog
 
+## [0.2.8] (2026-11-14)
+
+
+### Bug Fixes
+
+* **ci:** pin release-please-action to v4.4.0 commit ([4572d87](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/4572d87b322f9fa16391d793d7abc605d03031c7))
+* enforce complete stable release artifacts ([#64](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/64)) ([956e204](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/956e204216adab1a9ea3c455998b82bd32294b55))
+* recover release publication from incomplete predecessor ([#66](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/66)) ([233caff](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/233caff426d11ea6ac67828d10f73cceac53dbac))
+* **release:** set version-file to VERSION ([#49](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/49)) ([513c5e2](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/513c5e2fb114a9c9e273470a009c317a9ec003ea))
+* **release:** use generic extra-file type for VERSION ([#47](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/47)) ([5f8f35a](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/5f8f35aff933176d87703b9796ba446e2d2131aa))
+
+
+### Security
+
+* add verified Quantum CodeQL floor ([#13](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/13)) ([92c0755](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/92c0755dfc9425657f55b65c8b93873b54013c5c))
+* pin reviewed public metadata policy ([#40](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/40)) ([82e71aa](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/82e71aa1be3aa077e29bd54b48dc43f0e7a637a3))
+* repin reviewed privacy policy ([fda9fb7](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/fda9fb7cbbed192e8474bef3e04da068a59bdc7f))
+
+
+### CI
+
+* add release-please and lean release-integrity matrix ([4d6518c](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/4d6518ce65bb58ed9ace74ebbd6a6618c4840c13))
+* add validated privacy preflight ([4a3e1cf](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/4a3e1cf56a92e7572ab44325208fa7ad74711e9f))
+* check privacy on public PR metadata edits ([d4fb55d](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/d4fb55db66da92cbe8ab12c6a77e58a45a897b0a))
+* enforce quantum-readiness source-version consistency before release automation ([2402d0a](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/2402d0ab2a5812f9e0da8678b935e6d6269bf976))
+* pass workflow data through environment variables ([#58](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/58)) ([3111946](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/3111946187df8c1ef9c8c645ed0274046cf88e1d))
+* pin coverage tooling ([#60](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/60)) ([448407c](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/448407cb4ed7257c114a85cc73a1466526a15463))
+* pin privacy preflight ([18a9827](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/18a98275a0869bcf1a9ed5e686051ef55375e0fb))
+* publish packaged, attested releases ([#62](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/62)) ([ef6a67f](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/ef6a67f39079c82894b3c2559b2dd2683da5b7fd))
+* streamline workflow runs and release documentation ([#59](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/59)) ([15299cb](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/15299cbce185fb3804071f98a29050df8473441d))
+* tolerate unreadable immutable-release setting before publish ([#63](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/63)) ([37fd4e9](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/37fd4e9e35a55e8f0e76ce21f1f4c762c33de299))
+
+
+### Miscellaneous
+
+* **main:** release 0.2.5 ([#46](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/46)) ([43fca4e](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/43fca4ecc96498d5981015020bf8d46c5d261f6a))
+* **main:** release 0.2.6 ([#48](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/48)) ([957cfd4](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/957cfd4a6dba05e079789fe6f625135707d79ca1))
+* **main:** release 0.2.7 ([#68](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/68)) ([7fa3d0e](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/7fa3d0edadbc45679a5a450262cd6ba733e14c28))
+* simplify contribution forms and automation ([9024d61](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/9024d61410bdc35f3b25d6d606a328db6fcd0ca6))
+
+
+### Tests
+
+* lock release recovery behavior ([#67](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/67)) ([62ef0b4](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/62ef0b4b6575e9faef3e73cf48b212072d6463a3))
+
 ## [0.2.7] (2026-11-14)
 
 
