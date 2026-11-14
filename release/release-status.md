@@ -3,7 +3,7 @@
 Quantum Readiness for Space Communications is maintained as a
 documentation-first public framework.
 
-Current source version: **0.2.6**
+Current source version: **0.2.7**
 
 Published distribution identity is recorded on
 [GitHub Releases](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/latest).

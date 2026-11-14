@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.2.7] (2026-11-14)
+
+
+### Bug Fixes
+
+* enforce complete stable release artifacts ([#64](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/64)) ([956e204](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/956e204216adab1a9ea3c455998b82bd32294b55))
+* recover release publication from incomplete predecessor ([#66](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/66)) ([233caff](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/233caff426d11ea6ac67828d10f73cceac53dbac))
+
+
+### CI
+
+* pass workflow data through environment variables ([#58](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/58)) ([3111946](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/3111946187df8c1ef9c8c645ed0274046cf88e1d))
+* pin coverage tooling ([#60](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/60)) ([448407c](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/448407cb4ed7257c114a85cc73a1466526a15463))
+* publish packaged, attested releases ([#62](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/62)) ([ef6a67f](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/ef6a67f39079c82894b3c2559b2dd2683da5b7fd))
+* streamline workflow runs and release documentation ([#59](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/59)) ([15299cb](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/15299cbce185fb3804071f98a29050df8473441d))
+* tolerate unreadable immutable-release setting before publish ([#63](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/63)) ([37fd4e9](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/37fd4e9e35a55e8f0e76ce21f1f4c762c33de299))
+
+
+### Miscellaneous
+
+* simplify contribution forms and automation ([9024d61](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/9024d61410bdc35f3b25d6d606a328db6fcd0ca6))
+
+
+### Tests
+
+* lock release recovery behavior ([#67](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/issues/67)) ([62ef0b4](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/commit/62ef0b4b6575e9faef3e73cf48b212072d6463a3))
+
 ## [0.2.6] (2026-10-31)
 
 
