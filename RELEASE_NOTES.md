@@ -1,8 +1,8 @@
-# Quantum Readiness for Space Communications v0.2.7
+# Quantum Readiness for Space Communications v0.2.8
 
 ## Source summary
 
-Version 0.2.7 is a validation-hygiene update over v0.2.3.
+Version 0.2.8 is a validation-hygiene update over v0.2.3.
 
 It:
 

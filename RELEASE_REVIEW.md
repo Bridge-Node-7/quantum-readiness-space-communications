@@ -1,6 +1,6 @@
 # Source Validation
 
-**Version:** 0.2.7
+**Version:** 0.2.8
 
 This version preserves the documentation-first Quantum Readiness framework and its public claim boundaries while improving repository validation.
 
